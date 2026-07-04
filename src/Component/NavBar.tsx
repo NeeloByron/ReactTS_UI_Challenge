@@ -2,6 +2,11 @@ import './NavBar.css'
 
 function NavBar () {
   return (
+    
+    <header className="Navheader">
+     <div className="logo">
+      <img src="/src/assets/logo.png" alt="logo" />
+    </div>
     <div className="navbar">
       <nav className="links">
         <a href="/home">HOME</a>
@@ -15,8 +20,8 @@ function NavBar () {
         <button className='iconBtn'>👤</button>
         <button className='iconBtn'>🛒</button>
        </div>
-       
       </div>
+    </header>
 
   )
   
