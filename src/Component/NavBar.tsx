@@ -17,12 +17,12 @@ function NavBar () {
         <a href="/contact">CONTACT US</a>
       </nav>
 
-       <div className="navIcons">
+     <div className="navIcons">
         <button className='iconBtn'>👤</button>
         <button className='iconBtn'>🛒</button>
        </div>
-      </div>
-    </header>
+    </div>
+  </header>
 
   )
   
