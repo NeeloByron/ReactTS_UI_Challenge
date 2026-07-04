@@ -1,5 +1,6 @@
 .Navheader {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 15px 50px;
@@ -24,5 +25,23 @@
   font-weight: 600;
   letter-spacing: 0.5px;
   transition: color 0.2s ease;
+}
+
+.links a:hover {
+  color: #f0a500;
+}
+
+.navIcons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.iconBtn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
 }
 
