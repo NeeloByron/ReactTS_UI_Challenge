@@ -11,13 +11,8 @@
     display: block;
 }
 
-.navbar .links {
-    margin-left: auto;
-}
-.links {
+.navbar {
   display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0px;
-  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
 }
