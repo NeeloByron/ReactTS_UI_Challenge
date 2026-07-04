@@ -1,3 +1,16 @@
+.Navheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #1f252c;
+}
+
+.logo img {
+    height: 40px;
+    display: block;
+}
+
 .navbar .links {
     margin-left: auto;
 }
