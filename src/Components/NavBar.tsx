@@ -1,7 +1,6 @@
-import React from 'react'
 import './NavBar.css'
 
-export const NavBar = () => {
+function NavBar () {
   return (
     <div className="navbar">
       <nav className="links">
@@ -11,7 +10,16 @@ export const NavBar = () => {
         <a href="/blog">BLOG</a>
         <a href="/contact">CONTACT US</a>
        </nav>
+
+       <div className="navIcons">
+        <button className='iconBtn'>👤</button>
+        <button className='iconBtn'>🛒</button>
+       </div>
+       
       </div>
+
   )
   
 }
+
+export { NavBar };
