@@ -5,7 +5,7 @@ function NavBar () {
     
   <header className="Navheader">
     <div className="logo">
-      <img src="/src/assets/akasa-air.svg" alt="akasa-air" />
+      <img src="/src/assets/bower.svg" alt="bower" />
     </div>
 
     <div className="navbar">
