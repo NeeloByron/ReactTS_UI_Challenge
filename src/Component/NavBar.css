@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px 50px;
-    background-color: #1f252c;
+    background-color: #0b0c0c;
 }
 
 .logo img {
@@ -15,6 +15,7 @@
 .navbar {
   display: flex;
   align-items: center;
+  font-family: 'Courier New', Courier, monospace;
   gap: 50px;
 }
 
