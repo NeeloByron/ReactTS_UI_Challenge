@@ -35,6 +35,18 @@
   padding: 0;
 }
 
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+  position: relative;
+}
+
 .nav-links a:hover {
   color: #c49b6c;
 }
