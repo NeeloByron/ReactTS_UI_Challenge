@@ -16,7 +16,8 @@
 .navbar {
   display: flex;
   align-items: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Playfair Display', Courier, monospace;
+  font-size: 11px;
   gap: 50px;
 }
 
@@ -34,8 +35,8 @@
   padding: 0;
 }
 
-.links a:hover {
-  color: #f0a500;
+.nav-links a:hover {
+  color: #c49b6c;
 }
 
 
