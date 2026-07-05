@@ -17,25 +17,24 @@ function NavBar () {
 
     <nav className="navbar" role="navigation" aria-label="Main Navigation">
       <ul className='nav-links'>
-        {navLinks.map((link) => (
-          <li key={link.path}>
-            <Link to={link.path}>{link.label}</Link>
-          </li>
+         {navLinks.map((link) => (
+           <li key={link.path}>
+             <Link to={link.path}>{link.label}</Link>
+           </li>
         ))}
       </ul>
 
      <div className="nav-icons">
-        <button className='iconBtn' aria-label="User Profile">
-          <img src="/src/assets/Profile.png" alt="user-logo" className='ProfileImg'/>
-        </button>
+         <button className='iconBtn' aria-label="User Profile">
+           <img src="/src/assets/Profile.png" alt="user-logo" className='ProfileImg'/>
+         </button>
 
-        <button className='iconBtn' aria-label="Shopping Cart">
-          <img src="/src/assets/cart.webp" alt="shopping-cart" className='CartImg'/>
-        </button>
-
-    </div>
-    </nav>
-  </header>
+         <button className='iconBtn' aria-label="Shopping Cart">
+           <img src="/src/assets/cart.webp" alt="shopping-cart" className='CartImg'/>
+         </button>
+      </div>
+   </nav>
+ </header>
 
   ) 
 }
