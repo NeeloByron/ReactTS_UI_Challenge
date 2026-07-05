@@ -1,31 +1,43 @@
-import './NavBar.css'
+import { Link } from 'react-router-dom';
+import './NavBar.css';
 
 function NavBar () {
+  const navLinks = [
+    { path: '/home', label: 'HOME' },
+    { path: '/menu', label: 'MENU' },
+    { path: '/pages', label: 'PAGES' },
+    { path: '/blog', label: 'BLOG' },
+    { path: '/contactus', label: 'CONTACT US'}
+  ]
   return (
-    
-  <header className="Navheader">
+  <header className="nav-header">
     <div className="logo">
-      <img src="/src/assets/bower.svg" alt="bower" />
+      <img src="/src/assets/bower.svg" alt="bower-logo" />
     </div>
 
-    <div className="navbar">
-      <nav className="links">
-        <a href="/home">HOME</a>
-        <a href="/menu">MENU</a>
-        <a href="/pages">PAGES</a>
-        <a href="/blog">BLOG</a>
-        <a href="/contact">CONTACT US</a>
-      </nav>
+    <nav className="navbar" role="navigation" aria-label="Main Navigation">
+      <ul className='nav-links'>
+        {navLinks.map((link) => (
+          <li key={link.path}>
+            <Link to={link.path}>{link.label}</Link>
+          </li>
+        ))}
+      </ul>
 
-     <div className="navIcons">
-        <button className='iconBtn'>👤</button>
-        <button className='iconBtn'>🛒</button>
-       </div>
+     <div className="nav-icons">
+        <button className='iconBtn' aria-label="User Profile">
+          <img src="/src/assets/Profile.png" alt="user-logo" className='ProfileImg'/>
+        </button>
+
+        <button className='iconBtn' aria-label="Shopping Cart">
+          <img src="/src/assets/cart.webp" alt="shopping-cart" className='CartImg'/>
+        </button>
+
     </div>
+    </nav>
   </header>
 
-  )
-  
+  ) 
 }
 
 export { NavBar };
