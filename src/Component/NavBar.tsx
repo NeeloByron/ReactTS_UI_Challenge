@@ -25,11 +25,11 @@ function NavBar () {
       </ul>
 
      <div className="nav-icons">
-         <button className='iconBtn' aria-label="User Profile">
+         <button className='ProfileBtn' aria-label="User Profile">
            <img src="/src/assets/Profile.png" alt="user-logo" className='ProfileImg'/>
          </button>
 
-         <button className='iconBtn' aria-label="Shopping Cart">
+         <button className='ShoppingCartBtn' aria-label="Shopping Cart">
            <img src="/src/assets/cart.webp" alt="shopping-cart" className='CartImg'/>
          </button>
       </div>
