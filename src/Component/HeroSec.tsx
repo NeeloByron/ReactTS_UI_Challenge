@@ -6,6 +6,10 @@ export const HeroSec = () => {
     <>
       <div className='backgroundImg'>
         <img src={HeroImg} alt='' />
+        <h3>Prelum Restraurant</h3>
+        <h1>Anida Dedelay</h1>
+        <p>BEST HEALTHY SALAD SERVED IN OUR RESTRAURANT</p>
       </div>
+
    </> );
 };

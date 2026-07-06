@@ -3,6 +3,6 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: rgb(39, 38, 38);
+    background-color: #F8F6F3;
     min-height: 100vh;
 }
