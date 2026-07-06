@@ -7,7 +7,7 @@ function NavBar () {
     { path: '/menu', label: 'MENU' },
     { path: '/pages', label: 'PAGES' },
     { path: '/blog', label: 'BLOG' },
-    { path: '/contactus', label: 'CONTACT US'}
+    { path: '/contactUs', label: 'CONTACT US'}
   ]
   return (
   <header className="nav-header">
