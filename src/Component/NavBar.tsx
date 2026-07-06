@@ -12,7 +12,7 @@ function NavBar () {
   return (
   <header className="nav-header">
     <div className="logo">
-      <img src="/src/assets/bower.svg" alt="bower-logo" />
+      <img src="/src/assets/logo.png" alt="bower-logo" />
     </div>
 
     <nav className="navbar" role="navigation" aria-label="Main Navigation">

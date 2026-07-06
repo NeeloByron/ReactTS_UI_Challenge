@@ -1,0 +1,16 @@
+.FeatureSecImg{
+    height: 60vh;
+    width: 100%;
+    background: url(../assets/backgroundfeature.png) no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 9px 8px 6px 3px;
+}
+
+.benefits {
+    color: aliceblue;
+}
+
+.text {
+    color: aliceblue;
+}
