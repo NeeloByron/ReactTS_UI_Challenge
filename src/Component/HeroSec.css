@@ -1,5 +1,10 @@
 .backgroundImg img {
     height: 60vh;
     width: 96.8vw;
-    
+    position: relative;
+}
+
+.text {
+    display: inline-block;
+    font-family: 'Playfair Display', Courier, monospace';
 }
