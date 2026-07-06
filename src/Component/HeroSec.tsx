@@ -1,8 +1,11 @@
-import HeroImg from '../assets/BerryBowl.png'
+import HeroImg from '../assets/BerryBowl.png';
+import './HeroSec.css';
+
 export const HeroSec = () => {
   return (
-    <div>
-        <img src={HeroImg}></img>
-    </div>
-  )
-}
+    <>
+      <div className='backgroundImg'>
+        <img src={HeroImg} alt='' />
+      </div>
+   </> );
+};
