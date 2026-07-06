@@ -1,6 +1,8 @@
-
+import HeroImg from '../assets/BerryBowl.png'
 export const HeroSec = () => {
   return (
-    <div>HeroSec</div>
+    <div>
+        <img src={HeroImg}></img>
+    </div>
   )
 }
