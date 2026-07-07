@@ -1,6 +1,6 @@
-import { NavBar } from './Component/NavBar'
-import { HeroSec } from './Component/HeroSec'
-import { FeatureSec } from './Component/FeatureSec'
+import { NavBar } from './Component/NavBar/NavBar'
+import { HeroSec } from './Component/Hero/HeroSec'
+import { FeatureSec } from './Component/Feature/FeatureSec'
 import './App.css'
 
 function App() {
