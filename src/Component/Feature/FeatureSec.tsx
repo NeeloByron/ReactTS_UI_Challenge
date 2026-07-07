@@ -7,9 +7,12 @@ export const FeatureSec = () => {
 
              <div className='FeatureSecText'>
                 <h1 className='benefits'>Orange Benefit</h1>
-                <p className='text'>Just reogine eseds and summer in golled quasiunp</p>
-                <img src='/src/assets/Orange.png' alt=''/>
-                <a href='learnMore' className='LearnMore'>LEARN MORE</a>
+                  <img src='/src/assets/Orange.png' alt=''/>
+                  <div className='MainText'>
+                     <p className='text'>Just reogine eseds and summer in golled quasiunp</p>
+                     <a href='learnMore' className='LearnMore'>LEARN MORE</a>
+                  </div>
+                
             </div>
 
              <div className='FeatureSecOrangeGlass'>
