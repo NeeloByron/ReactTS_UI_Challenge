@@ -40,6 +40,17 @@
     display: inline-block;
 }
 
+.LearnMore {
+    display: inline-block;
+    color: #fff;
+    background-color: #D4A574;
+    font-family: 'Playfair Display', 'Courier, monospace';
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+}
+
 .FeatureSecOrangeGlass {
     flex: 1;
     display: flex;
@@ -55,4 +66,5 @@
     height: auto;
     max-height: 350px;
     object-fit: contain;
+    filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.2));
 }
