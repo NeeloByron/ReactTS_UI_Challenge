@@ -1,4 +1,21 @@
+.MenuSec {
+    display: flex;
+    background-color: #171D25;
+    font-family: 'Playfair Display', 'Courier, monospace';
+    color: #fff;
+}
 .Menu1 img {
+    width: 250px;
+    height: 180px;
+    gap: 50px;
+}
+
+.Menu2 img {
+    width: 250px;
+    height: 180px;
+}
+
+.Menu3 img {
     width: 250px;
     height: 180px;
 }

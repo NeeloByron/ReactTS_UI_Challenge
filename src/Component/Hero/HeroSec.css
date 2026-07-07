@@ -11,3 +11,10 @@
     display: inline-block;
     font-family: 'Playfair Display', 'Courier, monospace';
 }
+
+.learnmore {
+    display: flex;
+    color: #fff;
+    background-color: #FB6117;
+
+}
