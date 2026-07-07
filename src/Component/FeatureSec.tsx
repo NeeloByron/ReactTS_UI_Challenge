@@ -5,13 +5,14 @@ export const FeatureSec = () => {
     <>
           <div className='FeatureSecImg'>
 
-             <div>
+             <div className='FeatureSecText'>
                 <h1 className='benefits'>Orange Benefit</h1>
                 <p className='text'>Just reogine eseds and summer in golled quasiunp</p>
                 <img src='/src/assets/Orange.png' alt=''/>
+                <a href='learnMore'>LEARN MORE</a>
             </div>
 
-             <div>
+             <div className='FeatureSecOrangeGlass'>
               <img src='/src/assets/OrangeGlass.png' alt='' />
              </div>
                 
