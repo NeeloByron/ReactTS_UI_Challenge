@@ -54,6 +54,7 @@
   display: flex;
   align-items: center;
   gap: 1.2rem;
+  color: #fff;
 }
 
 .ProfileBtn {
@@ -82,8 +83,8 @@
 
 .ProfileImg,
 .CartImg {
-  height: 24px;
-  width: 24px;
+  height: 60px;
+  width: 60px;
 }
 
 @media (max-width: 768px) {
