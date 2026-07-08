@@ -1,8 +1,9 @@
 .backgroundImg{
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background: url(../Hero/BerryBowl.png) no-repeat;
     background-size: cover;
+    background-position: center;
     position: relative;
     padding: 9px 8px 6px 3px;
 }
