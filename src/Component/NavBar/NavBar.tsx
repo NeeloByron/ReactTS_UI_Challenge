@@ -25,7 +25,7 @@ function NavBar () {
       </ul>
 
      <div className="nav-icons">
-         <button className='ProfileBtn' aria-label="User Profile">
+         <button className='locationBtn' aria-label="location">
            <img src="/src/assets/location.png" alt="user-logo" className='ProfileImg'/>
          </button>
 
