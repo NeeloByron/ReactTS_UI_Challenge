@@ -9,51 +9,22 @@
     padding: 40px;
 }
 
-/* Menu-card1 */
-.Main-Menu .Menu-card1 img {
+/* Menu-card */
+.Main-Menu .Menu-card img {
     margin: 40px;
     width: 450px;
     height: 360px;
     border-radius: 10px;
     background-color: #2B353D;
 }
-.Main-Menu .Menu-card1-head {
-    margin: 40px;
+.Main-Menu .Menu-card-head {
+    margin-left: 40px;
 }
-.Main-Menu .Menu-card1-text {
-    margin: 40px;
+.Main-Menu .Menu-card-text {
+    margin-top: 10px;
+    margin-left: 40px;
     font-size: 15px;
-}
-
-/* Menu-Card2 */
-.Main-Menu .Menu-card2 img {
-    margin-top: 40px;
-    width: 450px;
-    height: 360px;
-    border-radius: 10px;
-    background-color: #2B353D;
-}
-.Main-Menu .Menu-card2-head {
-    margin: 40px;
-    margin-bottom: 10px;
-}
-.Main-Menu .Menu-card2-text {
-    margin: 20px;
-}
-
-/* Menu-Card3 */
-.Main-Menu .Menu-card3 img {
-    margin-top: 40px;
-    width: 450px;
-    height: 360px;
-    border-radius: 10px;
-}
-
-.Main-Menu .Menu-card3-head {
-    margin: 40px;
-}
-
-.Main-Menu .Menu-card3-text {
-    margin: 20px;
+    align-items: center;
+    display: block;
 }
 
