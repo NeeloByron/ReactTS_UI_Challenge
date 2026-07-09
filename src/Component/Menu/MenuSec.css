@@ -1,22 +1,57 @@
 .Main-Menu {
     display: flex;
     background-color: #171D25;
-    font-family: 'Playfair Display', 'Courier, monospace';
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 20px;
     color: #fff;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: normal;
+    padding: 40px;
 }
+
+/* Menu-card1 */
 .Menu-card1 img {
-    width: 250px;
-    height: 180px;
-    gap: 50px;
+    margin: 40px;
+    width: 450px;
+    height: 360px;
+    border-radius: 10px;
+}
+.Menu-card1-head {
+    margin: 40px;
+}
+.Menu-card1-text {
+    margin: 40px;
 }
 
+/* Menu-Card2 */
 .Menu-card2 img {
-    width: 250px;
-    height: 180px;
+    margin-top: 40px;
+    width: 450px;
+    height: 360px;
+    border-radius: 10px;
+    background-color: #2B353D;
+}
+.Menu-card2-head {
+    margin: 40px;
+    margin-bottom: 10px;
+}
+.Menu-card2-text {
+    margin: 20px;
 }
 
+/* Menu-Card3 */
 .Menu-card3 img {
-    width: 250px;
-    height: 180px;
+    margin-top: 40px;
+    width: 450px;
+    height: 360px;
+    border-radius: 10px;
 }
+
+.Menu-card3-head {
+    margin: 40px;
+}
+
+.Menu-card3-text {
+    margin: 20px;
+}
+
