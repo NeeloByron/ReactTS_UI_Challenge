@@ -3,6 +3,7 @@
     background-color: #171D25;
     font-family: 'Playfair Display', 'Courier, monospace';
     color: #fff;
+    justify-content: space-evenly;
 }
 .Menu1 img {
     width: 250px;
