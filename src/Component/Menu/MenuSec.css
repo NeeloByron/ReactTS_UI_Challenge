@@ -1,22 +1,22 @@
-.MenuSec {
+.Main-Menu {
     display: flex;
     background-color: #171D25;
     font-family: 'Playfair Display', 'Courier, monospace';
     color: #fff;
     justify-content: space-evenly;
 }
-.Menu1 img {
+.Menu-card1 img {
     width: 250px;
     height: 180px;
     gap: 50px;
 }
 
-.Menu2 img {
+.Menu-card2 img {
     width: 250px;
     height: 180px;
 }
 
-.Menu3 img {
+.Menu-card3 img {
     width: 250px;
     height: 180px;
 }
