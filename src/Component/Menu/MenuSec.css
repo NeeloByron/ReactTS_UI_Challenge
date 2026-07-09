@@ -10,48 +10,50 @@
 }
 
 /* Menu-card1 */
-.Menu-card1 img {
+.Main-Menu .Menu-card1 img {
     margin: 40px;
     width: 450px;
     height: 360px;
     border-radius: 10px;
+    background-color: #2B353D;
 }
-.Menu-card1-head {
+.Main-Menu .Menu-card1-head {
     margin: 40px;
 }
-.Menu-card1-text {
+.Main-Menu .Menu-card1-text {
     margin: 40px;
+    font-size: 15px;
 }
 
 /* Menu-Card2 */
-.Menu-card2 img {
+.Main-Menu .Menu-card2 img {
     margin-top: 40px;
     width: 450px;
     height: 360px;
     border-radius: 10px;
     background-color: #2B353D;
 }
-.Menu-card2-head {
+.Main-Menu .Menu-card2-head {
     margin: 40px;
     margin-bottom: 10px;
 }
-.Menu-card2-text {
+.Main-Menu .Menu-card2-text {
     margin: 20px;
 }
 
 /* Menu-Card3 */
-.Menu-card3 img {
+.Main-Menu .Menu-card3 img {
     margin-top: 40px;
     width: 450px;
     height: 360px;
     border-radius: 10px;
 }
 
-.Menu-card3-head {
+.Main-Menu .Menu-card3-head {
     margin: 40px;
 }
 
-.Menu-card3-text {
+.Main-Menu .Menu-card3-text {
     margin: 20px;
 }
 

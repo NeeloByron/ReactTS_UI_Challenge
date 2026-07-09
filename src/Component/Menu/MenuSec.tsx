@@ -1,6 +1,6 @@
-import MenuImage1 from '../../assets/ARCU.png'
-import MenuImage2 from '../../assets/Orange2.png'
-import MenuImage3 from '../../assets/StrewBerryBowl.jpg'
+import MenuImage1 from '@/assets/ARCU.png'
+import MenuImage2 from '@/assets/Orange2.png'
+import MenuImage3 from '@/assets/StrewBerryBowl.jpg'
 import './MenuSec.css'
 
 export const MenuSec = () => {
