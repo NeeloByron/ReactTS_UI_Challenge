@@ -13,6 +13,7 @@
     font-family: 'Playfair Display', 'Courier, monospace';
 }
 
+
 .learnmore {
     display: flex;
     color: #fff;
@@ -22,11 +23,12 @@
     height: auto;
 }
 
-.signup {
-    display: flex;
-    background-color: #FB6117;
-    width: 80px;
-    height: auto;
+.signup  {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 25px;
+    right: 5em;
 }
 
 .signUp {

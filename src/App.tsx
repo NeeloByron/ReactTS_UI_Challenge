@@ -2,7 +2,9 @@ import { NavBar } from './Component/NavBar/NavBar'
 import { HeroSec } from './Component/Hero/HeroSec'
 import { FeatureSec } from './Component/Feature/FeatureSec'
 import { MenuSec } from './Component/Menu/MenuSec'
+import Button from './Component/Button/Button'
 import './App.css'
+
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
       <HeroSec />
       <FeatureSec />
       <MenuSec />
+     
   </>
 
 

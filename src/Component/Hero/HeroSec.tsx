@@ -1,3 +1,4 @@
+import Button from '../Button/Button';
 import './HeroSec.css';
 
 export const HeroSec = () => {
@@ -9,11 +10,11 @@ export const HeroSec = () => {
               <h3>Prelum Restraurant</h3>
               <h1>Anida Dedelay</h1>
               <p>BEST HEALTHY SALAD SERVED IN OUR RESTRAURANT</p>
-              <a href='learnmore' className='learnmore'>LEARN MORE</a>
+              <Button btnText='LEARN MORE' style={{width: '100px', height: '42px'}}/>
            </div>
           
           <div className='signup'>
-              <a href='signingup' className='signUp'>SIGN UP</a>
+              <Button btnText='SIGN IN' style={{width: '120px', height: '45px'}}/>
           </div>
 
 
