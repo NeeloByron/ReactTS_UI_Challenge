@@ -1,5 +1,5 @@
 .backgroundImg{
-    height: 80vh;
+    height: 120vh;
     width: 100%;
     background: url(../Hero/BerryBowl.png) no-repeat;
     background-size: cover;
@@ -7,13 +7,10 @@
     position: relative;
     padding: 9px 8px 6px 3px;
 }
-
 .text {
     display: inline-block;
     font-family: 'Playfair Display', 'Courier, monospace';
 }
-
-
 .learnmore {
     display: flex;
     color: #fff;
@@ -22,19 +19,11 @@
     width: 120px;
     height: auto;
 }
-
 .signup  {
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 25px;
-    right: 5em;
+    top: 46px;
+    right: 8em;
 }
 
-.signUp {
-    display: flex;
-    font-family: Poppins, 'sans-serif';
-    color: #fff;
-    text-decoration: none;
-    justify-content: right;
-}

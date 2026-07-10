@@ -3,7 +3,7 @@ import { HeroSec } from './Component/Hero/HeroSec'
 import { FeatureSec } from './Component/Feature/FeatureSec'
 import { MenuSec } from './Component/Menu/MenuSec'
 import Button from './Component/Button/Button'
-import './App.css'
+
 
 
 function App() {
