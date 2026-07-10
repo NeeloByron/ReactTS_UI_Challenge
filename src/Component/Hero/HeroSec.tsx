@@ -1,4 +1,4 @@
-import Button from '../Button/Button';
+import Button from '@/Component/Button/Button'
 import './HeroSec.css';
 
 export const HeroSec = () => {
@@ -7,14 +7,14 @@ export const HeroSec = () => {
       <div className='backgroundImg'>
        
            <div className='text'>
-              <h3>Prelum Restraurant</h3>
+              <p className='P1'>Prelum Restraurant</p>
               <h1>Anida Dedelay</h1>
-              <p>BEST HEALTHY SALAD SERVED IN OUR RESTRAURANT</p>
+              <p className='p2'>BEST HEALTHY SALAD SERVED IN OUR RESTRAURANT</p>
               <Button btnText='LEARN MORE' style={{width: '100px', height: '42px'}}/>
            </div>
           
           <div className='signup'>
-              <Button btnText='SIGN IN' style={{width: '120px', height: '45px'}}/>
+              <Button btnText='SIGN IN' style={{width: '160px', height: '55px'}}/>
           </div>
 
 
