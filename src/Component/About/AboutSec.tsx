@@ -1,3 +1,4 @@
+import strewBerryImg from '@/assets/strewberries.png'
 import './aboutSec.Module.css'
 
 export const AboutSec = () => {
@@ -9,8 +10,10 @@ export const AboutSec = () => {
            </div>
 
            <div className="aboutImageCard">
-             
+             <img src={strewBerryImg} alt="Strewberries" />
            </div>
+
+          
       </div>
     </>
       )
