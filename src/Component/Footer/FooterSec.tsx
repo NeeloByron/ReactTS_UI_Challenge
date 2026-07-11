@@ -16,12 +16,12 @@ export const FooterSec = () => {
                </div>
            
            <div className='container'>
-               <div className='freshImg'>
+               <div className='fresh'>
                   <h1>Fresh</h1>
                   <p>Plays orand on inorianties</p>
                </div>
 
-               <div className='vitaminImg'>
+               <div className='vitamin'>
                   <h1>VITAMIN</h1>
                   <p>Nispen noa proerns</p>
                </div>
