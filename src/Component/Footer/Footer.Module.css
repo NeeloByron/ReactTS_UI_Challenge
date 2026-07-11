@@ -3,8 +3,21 @@
     background-color: #10171f;
     border: 50px;
     padding: 6.5rem;
+    color: #fff;
 }
 
-.footerMain .infoHeader {
-    color: #fff;
+.info {
+    margin-left: 40px;
+}
+
+.info .infoHeader h1{
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+}
+
+.info .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

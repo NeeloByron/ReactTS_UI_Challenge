@@ -11,16 +11,29 @@ export const FooterSec = () => {
           </div>
 
           <div className='info'>
-            <h1 className='infoHeader'>Our Menu Benefit</h1>
-            
-            <div className='freshImg'>
-              
-              <h1>Fresh</h1>
-              <p>Plays orand on inorianties</p>
+               <div className='infoHeader'>
+                  <h1>Our Menu Benefit</h1>
+               </div>
+           
+           <div className='container'>
+               <div className='freshImg'>
+                  <h1>Fresh</h1>
+                  <p>Plays orand on inorianties</p>
+               </div>
+
+               <div className='vitaminImg'>
+                  <h1>VITAMIN</h1>
+                  <p>Nispen noa proerns</p>
+               </div>
+
+               <div className='OreAnic'>
+                  <h1>ORE ANIC</h1>
+                  <p>Towagoloes weruis</p>
+               </div>
+
             </div>
+          </div>
 
-
-         </div>
       </div>
     </>
   )
