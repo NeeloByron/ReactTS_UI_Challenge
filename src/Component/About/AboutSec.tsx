@@ -9,11 +9,13 @@ export const AboutSec = () => {
              <p>Just imagine seeds and summer in gell sunshine.</p>
            </div>
 
-           <div className="aboutImageCard">
+           <div className='aboutImageCard'>
              <img src={strewBerryImg} alt="Strewberries" />
            </div>
 
-          
+          <div className='cardBox'>
+            
+          </div>    
       </div>
     </>
       )

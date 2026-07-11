@@ -11,3 +11,16 @@
     color: #fff;
     width: 30%;
 }
+
+.aboutImageCard img {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    margin-right: 80px;
+}
+
+.cardBox {
+    width: 80vw;
+    height: 60vh;
+    background-color: #fff;
+}
