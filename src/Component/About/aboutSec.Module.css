@@ -1,0 +1,6 @@
+.aboutSection {
+    display: flex;
+    background-color: #1F262F;
+    border: 50px;
+    padding: 16rem;
+}
