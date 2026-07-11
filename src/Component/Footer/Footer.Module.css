@@ -1,0 +1,6 @@
+.footerMain {
+    display: flex;
+    background-color: #10171f;
+    border: 50px;
+    padding: 6.5rem;
+}
