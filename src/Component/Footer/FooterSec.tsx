@@ -1,5 +1,7 @@
 import footerImage from '@/assets/BerryBowlfooter.png'
 import firstIcon from '@/assets/icon_1.png'
+import secondIcon from '@/assets/icon_2.png'
+import thirdIcon from '@/assets/icon_3.png'
 import './Footer.Module.css'
 
 export const FooterSec = () => {
@@ -9,7 +11,10 @@ export const FooterSec = () => {
       <div className='footerMain'>
          
           <div className='imageCard'>
-            <img src={footerImage} />
+            <img src={footerImage} alt='backgroundDescription' />
+             <div className='helloBox'>
+    
+             </div>
           </div>
 
           {/*Our menu benefit section*/}
@@ -20,17 +25,22 @@ export const FooterSec = () => {
            
            <div className='container'>
                <div className='fresh'>
-                  <img src={firstIcon} alt='' />
+                {/*icon 1*/}
+                  <img src={firstIcon} className='icon1' />
                   <h1>Fresh</h1>
                   <p>Plays orand on inorianties</p>
                </div>
 
+                {/*icon 2*/}
                <div className='vitamin'>
+                <img src={secondIcon} className='icon2' />
                   <h1>VITAMIN</h1>
                   <p>Nispen noa proerns</p>
                </div>
 
+                {/*icon 3*/}
                <div className='OreAnic'>
+                 <img src={thirdIcon} className='icon3' />
                   <h1>ORE ANIC</h1>
                   <p>Towagoloes weruis</p>
                </div>

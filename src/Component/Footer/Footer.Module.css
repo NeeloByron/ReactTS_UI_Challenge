@@ -93,3 +93,28 @@
     height: 30rem;
     border-radius: 5px;
 }
+
+/*icons*/
+.container .icon1 {
+    width: 60px;
+    height: 60px;
+}
+
+.icon2  {
+    width: 60px;
+    height: 60px;
+}
+
+.icon3 {
+    width: 60px;
+    height: 60px;
+}
+
+/*Hello box or card eitherway
+.helloBox {
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: black;
+    width: 50px;
+    margin-left: 10px;
+} */ 
