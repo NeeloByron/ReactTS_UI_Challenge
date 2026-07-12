@@ -1,4 +1,5 @@
 import footerImage from '@/assets/BerryBowlfooter.png'
+import firstIcon from '@/assets/icon_1.png'
 import './Footer.Module.css'
 
 export const FooterSec = () => {
@@ -19,6 +20,7 @@ export const FooterSec = () => {
            
            <div className='container'>
                <div className='fresh'>
+                  <img src={firstIcon} alt='' />
                   <h1>Fresh</h1>
                   <p>Plays orand on inorianties</p>
                </div>

@@ -3,7 +3,7 @@
     display: flex;
     background-color: #10171f;
     border: 50px;
-    padding: 6.5rem;
+    padding: 2.8rem;
     color: #fff;
 }
 
@@ -39,6 +39,7 @@
 .container .fresh p {
     width: 120px;
     font-size: 16px;
+    color: #838588;
 }
 
 /*vitamin class*/
@@ -49,9 +50,10 @@
 }
 .container .vitamin p {
     display: flex;
-    width: 100px;
+    width: 120px;
     margin-left: 6px;
     font-size: 16px;
+    color: #838588;
 }
 
 /*OreAnic class*/
@@ -64,13 +66,14 @@
 .container .OreAnic p {
     width: 120px;
     margin-left: 20px;
+    color: #838588;
 }
 
 /*Opening Hours section*/
 
 .OperationHours {
     border-left: 2px solid #fff;
-    height: 520px;
+    height: 480px;
     margin-left: 8%;
     font-family: 'Nunito';
     font-size: 20px;
