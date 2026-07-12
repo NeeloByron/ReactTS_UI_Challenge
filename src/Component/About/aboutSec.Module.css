@@ -1,26 +1,48 @@
+/*Main section*/
 .aboutSection {
     display: flex;
     background-color: #1F262F;
     border: 50px;
-    padding: 6.5rem;
+    padding: 3.5rem;
+    justify-content: space-evenly;
 }
 
 .aboutSection .aboutText p {
     font-family: "Poppins", sans-serif;
-    font-size: 3em;
+    font-size: 4em;
     color: #fff;
-    width: 30%;
+    width: 100%;
 }
 
+/*container for the two cards*/
 .aboutImageCard img {
     display: flex;
-    width: 80%;
-    height: 80%;
-    margin-right: 80px;
+    width: 25vw;
+    height: 52vh;
+    margin-right: 40px;
+    margin-left: 180px;
+    border-radius: 10px;
+}
+.containerCard {
+    display: flex;
+    align-items:flex-start;
+    margin-right: 100px;
+    margin-left: 20px;
 }
 
+/*Card box for text and button*/
 .cardBox {
-    width: 80vw;
-    height: 60vh;
+    display: flex;
+    width: 25vw;
+    height: 52vh;
     background-color: #fff;
+    border-radius: 10px;
+    justify-content: center;
 }
+
+.cardBox h1 {
+   font-family: 'Nunito', 'ExtraLight';
+   font-size: 30px;
+   width: 20%;
+}
+
