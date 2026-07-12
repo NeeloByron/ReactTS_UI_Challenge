@@ -1,3 +1,4 @@
+/*Main body of the footer*/
 .footerMain {
     display: flex;
     background-color: #10171f;
@@ -6,33 +7,86 @@
     color: #fff;
 }
 
+/*info section for the info container*/
 .info {
-    margin-left: 40px;
-    padding: auto;
+    margin-left: 140px;
+    padding: 15px;
+}
+
+.info .infoHeader{
+    justify-content: center;
 }
 
 .info .infoHeader h1{
-    font-family: "Poppins", sans-serif;
-    font-size: 38px;
+    font-family: 'Nunito';
+    font-size: 50px;
     align-items: flex-start;
 }
 
 .info .container {
     display: flex;
+    justify-content: space-between;
     margin-top: 30px;
 }
 
-.container .fresh p {
-    display: flex;
-    width: 120px;
+/*fresh class*/
+.container .fresh h1 {
+    font-size: 36px;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 8px;
 }
 
+.container .fresh p {
+    width: 120px;
+    font-size: 16px;
+}
+
+/*vitamin class*/
+.container .vitamin h1 {
+    font-size: 36px;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 8px;
+}
 .container .vitamin p {
     display: flex;
-    width: 120px;
+    width: 100px;
+    margin-left: 6px;
+    font-size: 16px;
+}
+
+/*OreAnic class*/
+.container .OreAnic h1 {
+    font-size: 38px;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 8px;
 }
 
 .container .OreAnic p {
-    display: flex;
     width: 120px;
+    margin-left: 20px;
+}
+
+/*Opening Hours section*/
+
+.OperationHours {
+    border-left: 2px solid #fff;
+    height: 520px;
+    margin-left: 8%;
+    font-family: 'Nunito';
+    font-size: 20px;
+}
+
+.OperationHours h1 {
+    margin-left: 40px;
+}
+
+/*image*/
+.imageCard {
+    display: flex;
+}
+.imageCard img {
+    display: inline-block;
+    width: 30rem;
+    height: 30rem;
+    border-radius: 5px;
 }
