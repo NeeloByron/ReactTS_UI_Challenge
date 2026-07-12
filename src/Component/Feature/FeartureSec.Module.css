@@ -1,0 +1,35 @@
+/*Main feature section*/
+.mainFeature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    width: 100%;
+    background-color: #1F262F; 
+    color: #fff;
+    background-size: cover;
+    position: relative;
+    padding: 3.5rem;
+}
+
+/*SubMain container*/
+.subMainFeature .orangeImage img {
+    width: 140px;
+    height: 140px;
+}
+
+h1 {
+    margin-left: 10%;
+    margin-right: 60px;
+}
+
+p {
+    margin-left: 20px;
+}
+
+/*Image of orange juice*/
+.FeatureSecOrangeGlass img {
+    width: 42%;
+    height: 42%;
+    margin-left: 55rem;
+}
