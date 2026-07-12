@@ -12,19 +12,22 @@
     padding: 3.5rem;
 }
 
-/*SubMain container*/
+/*Sub-Main container*/
 .subMainFeature .orangeImage img {
-    width: 140px;
-    height: 140px;
+    align-items: center;
+    width: 10rem;
+    height: 10rem;
 }
 
-h1 {
-    margin-left: 10%;
-    margin-right: 60px;
+.SubHeader h1 {
+    font-size: 72px;
+    font-family: 'Nunito';
+    font-weight: 1rem;
 }
 
 p {
-    margin-left: 20px;
+    color:#bfc3c9;
+    font-size: 16px;
 }
 
 /*Image of orange juice*/

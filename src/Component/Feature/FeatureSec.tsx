@@ -1,5 +1,6 @@
 import SliceOrange from '@/assets/Orange.png'
 import OrangeContainer from '@/assets/OrangeGlass.png'
+import Button from '@/Component/Button/Button'
 import './FeartureSec.Module.css'
 
 export const FeatureSec = () => {
@@ -24,6 +25,8 @@ export const FeatureSec = () => {
                  {/*Paragraph message*/}
                   <div className='MainText'>
                      <p>Just reogine eseds and summer in golled quasiunp</p>
+                     
+                    </div>
                   </div>
 
                </div>  
@@ -33,7 +36,7 @@ export const FeatureSec = () => {
                   <img src={OrangeContainer} alt='OrangeJuiceGlass' />
                 </div>
 
-            </div>
+          </div>
                 
     </>
   )

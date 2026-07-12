@@ -16,6 +16,19 @@
     min-height: 100vh;
 }
 
-/*Large devices like desktop*/
+html {
+    scroll-behavior: smooth;
+}
 
+/*Large devices like desktop*/
+body {
+    font-size: 14px;
+}
+.container {
+    width: 100%;
+    padding: 0 15px;
+}
+.grid-layout {
+    grid-template-columns: 1fr;
+}
 
