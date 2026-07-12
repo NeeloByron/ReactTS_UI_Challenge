@@ -1,24 +1,28 @@
 import Button from '@/Component/Button/Button'
-import './HeroSec.css';
+import './HeroSec.Module.css'
 
 export const HeroSec = () => {
   return (
     <>
-      <div className='backgroundImg'>
+      {/*Main section and background picture set*/}
+       <div className='mainContainerBackground'>
        
-           <div className='text'>
-              <p className='P1'>Prelum Restraurant</p>
-              <h1>Anida Dedelay</h1>
-              <p className='p2'>BEST HEALTHY SALAD SERVED IN OUR RESTRAURANT</p>
-              <Button btnText='LEARN MORE' style={{width: '100px', height: '42px'}}/>
-           </div>
-          
-          <div className='signup'>
-              <Button btnText='SIGN IN' style={{width: '160px', height: '55px'}}/>
-          </div>
+            {/*Restaurent name */}
+             <div className='text'>
+               <p className='P1'>Prelum Restraurant</p>
+               <h1>Anida Dedelay</h1>
+               <p className='P2'>BEST HEALTHY SALAD SERVED IN OUR RESTRAURANT</p>
+              
+               {/*Learn more button*/}
+               <Button btnText='LEARN MORE' style={{width: '15rem', height: '8rem'}}/>
+            </div>
+           
+            {/*Sign up button*/}
+              <div className='signup'>
+                <Button btnText='SIGN IN' style={{width: '14rem', height: '5.5rem'}}/>
+              </div>
 
-
-      </div>
+       </div>
 
    </> );
 };

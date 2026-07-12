@@ -17,25 +17,22 @@ export const FeatureSec = () => {
                   <h1>Orange Benefit</h1>
                  </div>
              
-                 {/*Image for the half orange*/}
+                  {/*Image for the half orange*/}
                   <div className='orangeImage'>
                     <img src={SliceOrange} alt='halfSlicedOrange'/>
                   </div>
  
-                 {/*Paragraph message*/}
+                  {/*Paragraph message*/}
                   <div className='MainText'>
                      <p>Just reogine eseds and summer in golled quasiunp</p>
-                     
-                    </div>
                   </div>
+              </div>
 
-               </div>  
 
                {/*Image of orange juice*/}
                 <div className='FeatureSecOrangeGlass'>
                   <img src={OrangeContainer} alt='OrangeJuiceGlass' />
                 </div>
-
           </div>
                 
     </>
