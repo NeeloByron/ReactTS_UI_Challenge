@@ -21,10 +21,9 @@ export const AboutSec = () => {
               {/*the which background card*/}
              <div className='cardBox'>
                <h1>EBEE WOUS BENEFIT.</h1>
-               <p></p>
+              {/* <p className='firstline'>Wotv & verd. Pasafafadd aafafa</p>*/}
              </div>   
               
-
           </div> 
 
       </div>

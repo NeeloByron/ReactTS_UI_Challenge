@@ -9,16 +9,16 @@
 
 .aboutSection .aboutText p {
     font-family: "Poppins", sans-serif;
-    font-size: 4em;
+    font-size: 5.8em;
     color: #fff;
-    width: 100%;
+    width: 110%;
+    line-height: 70px;
 }
 
 /*container for the two cards*/
 .aboutImageCard img {
     display: flex;
-    width: 25vw;
-    height: 52vh;
+    width: 22vw;
     margin-right: 40px;
     margin-left: 180px;
     border-radius: 10px;
@@ -26,23 +26,34 @@
 .containerCard {
     display: flex;
     align-items:flex-start;
-    margin-right: 100px;
+    margin-right: 3.25rem;
     margin-left: 20px;
 }
 
 /*Card box for text and button*/
 .cardBox {
     display: flex;
-    width: 25vw;
-    height: 52vh;
+    width: 23vw;
+    height: 36vh;
     background-color: #fff;
     border-radius: 10px;
     justify-content: center;
+    
 }
 
 .cardBox h1 {
    font-family: 'Nunito', 'ExtraLight';
-   font-size: 30px;
-   width: 20%;
+   font-size: 1.5rem;
+   width: 15.8rem;
+   margin-top: 60px;
+   margin-left: 40px;
+}
+
+/*Tablet view 769px to 992px*/
+@media screen and (min-width: 769px) and (max-width: 992px) {
+       .aboutSection {
+        flex-wrap: wrap;
+        flex-direction: column;
+       }
 }
 

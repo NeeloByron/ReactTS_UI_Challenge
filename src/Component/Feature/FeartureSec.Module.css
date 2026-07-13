@@ -36,3 +36,11 @@ p {
     height: 42%;
     margin-left: 55rem;
 }
+
+/*Tablet view 769px to 992px*/
+@media screen and (min-width: 769px) and (max-width: 992px) {
+       .mainFeature {
+        flex-wrap: wrap;
+        flex-direction: column;
+       }
+}

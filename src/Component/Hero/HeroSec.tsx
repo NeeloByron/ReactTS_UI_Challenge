@@ -14,7 +14,9 @@ export const HeroSec = () => {
                <p className='P2'>BEST HEALTHY SALAD SERVED IN OUR RESTRAURANT</p>
               
                {/*Learn more button*/}
-               <Button btnText='LEARN MORE' style={{width: '15rem', height: '8rem'}}/>
+                <div className='learnmore'>
+                 <Button btnText='LEARN MORE' style={{width: '15rem', height: '6.5rem'}}/>
+                </div>
             </div>
            
             {/*Sign up button*/}

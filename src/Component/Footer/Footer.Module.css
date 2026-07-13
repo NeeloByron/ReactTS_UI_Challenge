@@ -27,6 +27,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    gap: 30px;
     
 }
 
@@ -73,7 +74,7 @@
 /*Opening Hours section*/
 
 .OperationHours {
-    border-left: 2px solid #fff;
+    border-left: 1px solid #fff;
     height: 480px;
     margin-left: 8%;
     font-family: 'Nunito';
@@ -119,3 +120,11 @@
     width: 50px;
     margin-left: 10px;
 } */ 
+
+/*Tablet view 769px to 992px*/
+@media screen and (min-width: 769px) and (max-width: 992px) {
+       .footerMain {
+        flex-wrap: wrap;
+        flex-direction: column;
+       }
+}
