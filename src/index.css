@@ -37,7 +37,6 @@ body, html {
        }
 
        /*Hero*/
-       /*1*/
         .mainContainerBackground {
         display: block;
         min-width: 10px;
@@ -46,7 +45,6 @@ body, html {
         background-position: center center;
        }
         
-       /*2*/
        .learnmore {
         width: 10px;
         
@@ -75,6 +73,27 @@ body, html {
         display: block;
         flex-wrap: wrap;
         flex-direction: column;
+       }
+
+       /*Feature Section*/
+       .mainFeature {
+        padding: 2rem;
+       }
+       .FeatureSecOrangeGlass {
+        max-width: 35%;
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 35%;
+        margin-left: auto;
+      }
+
+       .FeatureSecOrangeGlass img {
+        width: 100%;
+        height: auto;
+        max-width: 20rem;
+        max-height: 18rem;
+        object-fit: cover;
+        border-radius: 8px;
        }
 
        

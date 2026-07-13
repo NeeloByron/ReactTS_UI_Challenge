@@ -8,40 +8,64 @@
     color: #fff;
     background-size: cover;
     position: relative;
-    padding: 3.0rem;
+    padding: 3rem;
+    align-items: center; 
+    gap: 2rem;
 }
 
 /*Sub-Main container*/
 .subMainFeature .orangeImage img {
-    width: 18rem;
+    display: block;
+    max-width: 100%;
+    width: 16rem;
     height: auto;
-}
-
-.subMainFeature {
-    padding: 40px;
+    object-fit: contain;
 }
 
 .SubHeader h1 {
     font-size: 100px;
-    font-family: 'Nunito';
-    font-weight: 1rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 550;
+    line-height: 1.1;
+    letter-spacing: -2%;
+    margin-bottom:  1rem;
+    margin-left: 64px;
 }
 
 p {
-    color:#bfc3c9;
-    font-size: 16px;
+    color:#f0f5fc;
+    font-size: 28px;
+    line-height: 1.6;
+    margin-top: 0.80rem;
+    margin-bottom: 1.5rem; 
+    width: 100%;
+    max-width: 100%;
 }
+
+
 
 /*Image of orange juice*/
 .FeatureSecOrangeGlass img {
     width: 34rem;
     height: 30rem;
     border-radius: 10px;
+    object-fit: cover;
 }
+
 .orangeAndText{
     display:flex;
-    margin-top: 40px;
-    width: 30rem;
+    margin-top: 0px;
+    width: 100%;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/*Button*/
+.MainText button {
+    width: 14rem;
+    height: 5.5rem;
+    font-size: 1.3rem;
+    border-radius: 5px;
 }
 
 
