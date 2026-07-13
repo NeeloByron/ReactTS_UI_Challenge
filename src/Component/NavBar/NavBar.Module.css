@@ -92,29 +92,3 @@
   }
 }*/
 
-/*Tablet view 769px to 992px*/
-@media screen and (min-width: 769px) and (max-width: 992px) {
-      .nav-header {
-        display: flex;
-        flex-wrap: wrap;
-        
-       }
-
-       .nav-links {
-        margin-bottom: 20px;
-       }
-
-       .nav-links li {
-        font-size: 5px;
-       }
-
-       .nav-icons {
-        height: 0.5rem;
-        width: 0.5px;
-        margin-bottom: 60px;
-       }
-
-      
-     
-       
-}

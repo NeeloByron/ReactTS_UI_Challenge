@@ -31,10 +31,3 @@
     display: block;
 }
 
-/*Tablet view 769px to 992px*/
-@media screen and (min-width: 769px) and (max-width: 992px) {
-       .Main-Menu {
-        flex-wrap: wrap;
-        flex-direction: column;
-       }
-}

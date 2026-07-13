@@ -1,26 +1,28 @@
 /*Main feature section*/
 .mainFeature {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     height: 60vh;
     width: 100%;
     background-color: #1F262F; 
     color: #fff;
     background-size: cover;
     position: relative;
-    padding: 3.5rem;
+    padding: 3.0rem;
 }
 
 /*Sub-Main container*/
 .subMainFeature .orangeImage img {
-    align-items: center;
-    width: 10rem;
-    height: 10rem;
+    width: 18rem;
+    height: auto;
+}
+
+.subMainFeature {
+    padding: 40px;
 }
 
 .SubHeader h1 {
-    font-size: 72px;
+    font-size: 100px;
     font-family: 'Nunito';
     font-weight: 1rem;
 }
@@ -32,15 +34,14 @@ p {
 
 /*Image of orange juice*/
 .FeatureSecOrangeGlass img {
-    width: 42%;
-    height: 42%;
-    margin-left: 55rem;
+    width: 34rem;
+    height: 30rem;
+    border-radius: 10px;
+}
+.orangeAndText{
+    display:flex;
+    margin-top: 40px;
+    width: 30rem;
 }
 
-/*Tablet view 769px to 992px*/
-@media screen and (min-width: 769px) and (max-width: 992px) {
-       .mainFeature {
-        flex-wrap: wrap;
-        flex-direction: column;
-       }
-}
+

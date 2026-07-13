@@ -2,10 +2,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-html body {
-    overflow-x: hidden;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
 }
 
+body, html {
+    overflow-x: hidden;  
+    width: 100%;
+}
+
+/*Tablet view 769px to 992px*/
+@media screen and (min-width: 769px) and (max-width: 992px) {
+       /*NavBar*/
+        .nav-header {
+        display: flex;
+        flex-wrap: wrap;
+        
+       }
+
+       .nav-links {
+        margin-bottom: 20px;
+       }
+
+       .nav-links li {
+        font-size: 5px;
+       }
+
+       .nav-icons {
+        height: 0.5rem;
+        width: 0.5px;
+        margin-bottom: 60px;
+       }
+
+       /*Hero*/
+       /*1*/
+        .mainContainerBackground {
+        display: block;
+        min-width: 10px;
+        height: 60vh;
+        background-image: cover;
+        background-position: center center;
+       }
+        
+       /*2*/
+       .learnmore {
+        width: 10px;
+        
+       }
+       .aboutSection {
+        flex-wrap: wrap;
+        flex-direction: column;
+       }
+
+       .mainFeature {
+        display: block;
+       }
+
+       .FeatureSecOrangeGlass {
+         display: block;
+         height: 100px;
+         width: 100px;
+       }
+
+       .footerMain {
+        flex-wrap: wrap;
+        flex-direction: column;
+       }
+
+       .Main-Menu {
+        display: block;
+        flex-wrap: wrap;
+        flex-direction: column;
+       }
+
+       
+}

@@ -121,10 +121,4 @@
     margin-left: 10px;
 } */ 
 
-/*Tablet view 769px to 992px*/
-@media screen and (min-width: 769px) and (max-width: 992px) {
-       .footerMain {
-        flex-wrap: wrap;
-        flex-direction: column;
-       }
-}
+

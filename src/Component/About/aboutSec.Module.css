@@ -49,11 +49,4 @@
    margin-left: 40px;
 }
 
-/*Tablet view 769px to 992px*/
-@media screen and (min-width: 769px) and (max-width: 992px) {
-       .aboutSection {
-        flex-wrap: wrap;
-        flex-direction: column;
-       }
-}
 
