@@ -9,25 +9,26 @@
 
 .aboutSection .aboutText p {
     font-family: "Poppins", sans-serif;
-    font-size: 5.8em;
+    font-size: 5.1em;
     color: #fff;
-    width: 110%;
-    line-height: 70px;
+    width: 32vw;
+    line-height: 5.2rem;
 }
 
 /*container for the two cards*/
 .aboutImageCard img {
     display: flex;
-    width: 22vw;
+    width: 26.5vw;
+    height: auto;
     margin-right: 40px;
     margin-left: 180px;
     border-radius: 10px;
 }
 .containerCard {
     display: flex;
-    align-items:flex-start;
-    margin-right: 3.25rem;
-    margin-left: 20px;
+    
+    margin-right: 3.6rem;
+    margin-left: auto;
 }
 
 /*Card box for text and button*/

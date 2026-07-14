@@ -9,8 +9,8 @@
 
 /*info section for the info container*/
 .info {
-    margin-left: 140px;
-    padding: 15px;
+    padding-left: 140px;
+    padding-right: 15px;
 }
 
 .info .infoHeader{
@@ -18,8 +18,8 @@
 }
 
 .info .infoHeader h1{
-    font-family: 'Nunito';
-    font-size: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 44px;
     align-items: flex-start;
 }
 
@@ -33,7 +33,7 @@
 
 /*fresh class*/
 .container .fresh h1 {
-    font-size: 36px;
+    font-size: 32px;
     font-family: 'Nunito', sans-serif;
     margin-bottom: 8px;
 }
@@ -46,7 +46,7 @@
 
 /*vitamin class*/
 .container .vitamin h1 {
-    font-size: 36px;
+    font-size: 30px;
     font-family: 'Nunito', sans-serif;
     margin-bottom: 8px;
 }
@@ -60,7 +60,7 @@
 
 /*OreAnic class*/
 .container .OreAnic h1 {
-    font-size: 38px;
+    font-size: 30px;
     font-family: 'Nunito', sans-serif;
     margin-bottom: 8px;
 }
@@ -69,6 +69,7 @@
     width: 120px;
     margin-left: 20px;
     color: #838588;
+    font-size: 16px;
 }
 
 /*Opening Hours section*/
@@ -76,7 +77,7 @@
 .OperationHours {
     border-left: 1px solid #fff;
     height: 480px;
-    margin-left: 8%;
+    margin-left: 50px;
     font-family: 'Nunito';
     font-size: 20px;
 }
@@ -96,29 +97,21 @@
     border-radius: 5px;
 }
 
-/*icons*/
-.container .icon1 {
-    width: 60px;
-    height: 60px;
-}
-
-.icon2  {
-    width: 60px;
-    height: 60px;
-}
-
-.icon3 {
-    width: 60px;
-    height: 60px;
-}
-
-/*Hello box or card eitherway
+/*Hello box or card eitherway */ 
 .helloBox {
-    border: 1px solid #fff;
+    position: absolute;
     background-color: #fff;
     color: black;
-    width: 50px;
-    margin-left: 10px;
-} */ 
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 730;
+    width: 16rem;
+    height: 7rem;
+    margin-left: 110px;
+    margin-top: 200px;
+    border-radius: 7px;
+    text-align: center;
+    padding-top: 33px;
+} 
 
 
