@@ -7,7 +7,7 @@ export const HeroSec = () => {
       {/*Main section and background picture set*/}
        <div className='mainContainerBackground'>
        
-            {/*Restaurent name */}
+           {/*Restaurent name */}
              <div className='text'>
                <p className='P1'>Prelum Restraurant</p>
                <h1>Anida Dedelay</h1>
@@ -15,13 +15,13 @@ export const HeroSec = () => {
               
                {/*Learn more button*/}
                 <div className='learnmore'>
-                 <Button btnText='LEARN MORE' style={{width: '15rem', height: '6.5rem'}}/>
+                 <Button btnText='LEARN MORE' style={{width: '18rem', height: '7rem', fontSize: '1.59rem', borderRadius: '8px', backgroundColor: '#d15217'}}/>
                 </div>
-            </div>
+             </div>
            
             {/*Sign up button*/}
               <div className='signup'>
-                <Button btnText='SIGN IN' style={{width: '14rem', height: '5.5rem'}}/>
+                <Button btnText='SIGN IN' style={{width: '14rem', height: '5.5rem', fontSize: '1.59rem', borderRadius: '8px', backgroundColor: '#d15217'}}/>
               </div>
 
        </div>

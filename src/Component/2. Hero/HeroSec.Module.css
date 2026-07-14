@@ -1,6 +1,7 @@
 /*Main container for the hero section*/
 .mainContainerBackground {
-    height: 120vh;
+    display: flex;
+    min-height: 603px;
     width: 100%;
     background: url(@/assets/BerryBowl.png) no-repeat;
     background-size: cover;
@@ -12,7 +13,7 @@
 .text {
     display: inline-block;
     font-family: "Poppins", sans-serif;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-top: 20px;
     margin-bottom: 100px;
 }
@@ -39,16 +40,6 @@
     line-height: 120px;
     margin-top: 100px;
     margin-bottom: 100px;
-}
-
-.learnmore {
-    font-size: 20px;
-    color: #fff;
-    background-color: #FB6117;
-    text-decoration: none;
-    width: 120px;
-    height: auto;
-    border-radius: 10px;
 }
 
 .signup  {
