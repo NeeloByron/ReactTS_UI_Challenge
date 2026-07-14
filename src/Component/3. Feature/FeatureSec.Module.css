@@ -1,10 +1,10 @@
 /*Main feature section*/
 .mainFeature {
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-start;
     height: 60vh;
     width: 100%;
-    background-color: #1F262F; 
+    background-color: #1b222b; 
     color: #fff;
     background-size: cover;
     position: relative;
@@ -17,11 +17,14 @@
 .subMainFeature .orangeImage img {
     display: block;
     max-width: 100%;
-    width: 16rem;
+    width: 20rem;
     height: auto;
     object-fit: contain;
 }
-
+.subMainFeature {
+    display: block;
+    padding: 100px;
+}
 .SubHeader h1 {
     font-size: 100px;
     font-family: 'Nunito', sans-serif;
@@ -32,13 +35,15 @@
     margin-left: 64px;
 }
 
+
+
 p {
     color:#f0f5fc;
     font-size: 28px;
     line-height: 1.6;
     margin-top: 0.80rem;
     margin-bottom: 1.5rem; 
-    width: 100%;
+    width: 82%;
     max-width: 100%;
 }
 
@@ -64,8 +69,10 @@ p {
 .MainText button {
     width: 14rem;
     height: 5.5rem;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+    font-weight: 600;
     border-radius: 5px;
+    background-color: #d15217;
 }
 
 

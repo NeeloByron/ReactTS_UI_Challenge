@@ -1,7 +1,7 @@
 import SliceOrange from '@/assets/Orange.png'
 import OrangeContainer from '@/assets/OrangeGlass.png'
 import Button from '@/Component/Button/Button'
-import './FeartureSec.Module.css'
+import './FeatureSec.Module.css'
 
 export const FeatureSec = () => {
   return (
