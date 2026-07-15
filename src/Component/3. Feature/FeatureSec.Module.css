@@ -72,7 +72,7 @@ p {
     font-weight: 600;
     border-radius: 5px;
     background-color: #db6b37;
-    
+    border: none; /*or outline: none*/
 }
 
 
