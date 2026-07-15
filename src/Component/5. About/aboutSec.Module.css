@@ -34,7 +34,7 @@
 /*Card box for text and button*/
 .cardBox {
     display: flex;
-    width: 23vw;
+    width: 20vw;
     height: 100%;
     background-color: #fff;
     border-radius: 10px;
@@ -45,10 +45,16 @@
 
 .cardBox h2 {
    font-family: 'Nunito', 'ExtraLight';
-   font-size: 1.8rem;
+   font-size: 1.6rem;
    width: 15.8rem;
    margin-top: 40px;
-   margin-left: 40px;
+   margin-left: 1.9rem;
+}
+
+.cardBox h1 {
+    font-family: 'Nunito', 'ExtraLight';
+    font-size: 2.2rem;
+    margin-left: 3.1rem;
 }
 
 .cardBox .Wotv {
@@ -72,7 +78,8 @@
 }
 
 .cardBox .diverTwo {
-     border-bottom: rem solid black; 
+     border-bottom:  black; 
      width: 10rem;
      margin-bottom: 2.6rem;
 }
+

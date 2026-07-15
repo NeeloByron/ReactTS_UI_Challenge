@@ -28,7 +28,7 @@ export const FeatureSec = () => {
                       {/*Paragraph message*/}
                       <div className='MainText'>
                         <p>Just reogine eseds and summer in golled quasiunp</p>
-                        <Button btnText='LEARN MORE' style={{width: '12rem', height: '4rem'}}/>
+                        <Button btnText='LEARN MORE' />
                       </div>
 
                   </div>

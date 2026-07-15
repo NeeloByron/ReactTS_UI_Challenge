@@ -21,7 +21,8 @@ export const AboutSec = () => {
 
               {/*the which background card*/}
              <div className='cardBox'>
-               <h2>EBEE WOUS BENEFIT.</h2>
+               <h2>EBEE WOUS </h2>
+               <h1>BENEFIT.</h1>
                <p className='Wotv'>Wotv & verd. Pasafafadd aafafa</p>
                <hr className='diverOne'/>
                <p className='Ruoedll'>ruocedll condition</p>
