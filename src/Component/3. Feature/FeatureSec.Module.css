@@ -1,16 +1,18 @@
 /*Main feature section*/
 .mainFeature {
     display: flex;
-    justify-content:flex-start;
+    justify-content:center;
+    flex-wrap: wrap;
     height: 60vh;
     width: 100%;
     background-color: #1b222b; 
     color: #fff;
-    background-size: cover;
     position: relative;
     padding: 3rem;
     align-items: center; 
     gap: 2rem;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 /*Sub-Main container*/
@@ -22,8 +24,11 @@
     object-fit: contain;
 }
 .subMainFeature {
-    display: block;
-    padding: 100px;
+    flex: 1 1 50%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 .SubHeader h1 {
     font-size: 100px;
@@ -34,8 +39,22 @@
     margin-bottom:  1rem;
     margin-left: 64px;
 }
+.SubHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
 
+.SubHeader .orangeAndText{
+    display:flex;
+    align-items: flex-start;
+    gap: 1.3rem;
+}
 
+.orangeImage img {
+    width: 100%;
+    height: auto;
+}
 
 p {
     color:#f0f5fc;
@@ -49,18 +68,10 @@ p {
 
 /*Image of orange juice*/
 .FeatureSecOrangeGlass img {
-    width: 34rem;
+    min-width: 34rem;
     height: 30rem;
     border-radius: 10px;
-    object-fit: cover;
-}
-
-.orangeAndText{
-    display:flex;
-    margin-top: 0px;
-    width: 100%;
-    align-items: center;
-    gap: 0.5rem;
+    object-fit: contain;
 }
 
 /*Button*/
@@ -71,8 +82,12 @@ p {
     font-size: 1.1rem;
     font-weight: 600;
     border-radius: 5px;
-    background-color: #db6b37;
+    background-color: #e05f23;
     border: none; /*or outline: none*/
+}
+
+.MainText button:hover {
+    color: #050505;
 }
 
 
