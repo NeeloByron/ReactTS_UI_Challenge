@@ -19,7 +19,7 @@
 
 .info .infoHeader h1{
     font-family: 'Nunito', sans-serif;
-    font-size: 44px;
+    font-size: 2.75rem;
     align-items: flex-start;
 }
 
@@ -73,17 +73,32 @@
 }
 
 /*Opening Hours section*/
-
 .OperationHours {
     border-left: 0.1rem solid #fff;
     height: 480px;
     margin-left: 50px;
     font-family: 'Nunito';
-    font-size: 20px;
+    font-size: 1.58rem;
 }
 
 .OperationHours h1 {
     margin-left: 40px;
+    margin-bottom: 2.3rem;
+}
+.daysAndhours {
+    margin-left: 40px;
+}
+.dayRow {
+    display: flex;
+    font-size: 1.3rem;
+    margin-bottom: 1.6rem;
+    gap: 10rem;
+}
+
+.quicklink {
+    font-size: 3.5rem;
+    margin-top: 4rem;
+    margin-right: 16rem;
 }
 
 /*image*/
