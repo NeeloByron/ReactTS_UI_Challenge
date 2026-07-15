@@ -62,6 +62,10 @@
     cursor: pointer;
 }
 
+.learnmore button:hover {
+    color: #050505;
+}
+
 /*Sign up button */
 .signup button {
     width: 14rem;
@@ -73,5 +77,10 @@
     cursor: pointer;
     border: none;
 }
+
+.signup button:hover {
+    color: #050505;
+}
+
 
 
