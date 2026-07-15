@@ -11,17 +11,17 @@ export const HeroSec = () => {
              <div className='text'>
                <p className='P1'>Prelum Restraurant</p>
                <h1>Anida Dedelay</h1>
-               <p className='P2'>BEST HEALTHY SALAD SERVED IN OUR RESTRAURANT</p>
+               <p className='P2'>BEST HEALTHY SALAD SERVED<br/> IN OUR RESTRAURANT</p>
               
                {/*Learn more button*/}
                 <div className='learnmore'>
-                 <Button btnText='LEARN MORE' style={{width: '18rem', height: '7rem', fontSize: '1.59rem', borderRadius: '8px', backgroundColor: '#db6b37'}}/>
+                 <Button btnText='LEARN MORE' onClick={() => alert('Prelum Restraurant serves healthy salads, Come dine at our restraurant enjoy nice healthy meals')} />
                 </div>
              </div>
            
             {/*Sign up button*/}
               <div className='signup'>
-                <Button btnText='SIGN IN' style={{width: '14rem', height: '5.5rem', fontSize: '1.59rem', borderRadius: '8px', backgroundColor: '#db6b37'}}/>
+                <Button btnText='SIGN IN' onClick={() => alert('Please enter your credentials')}/>
               </div>
 
        </div>

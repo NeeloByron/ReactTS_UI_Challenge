@@ -10,10 +10,11 @@
     padding: 1rem;
 }
 
+/*contains the whole text section including the button is a container*/
 .text {
     display: inline-block;
     font-family: "Poppins", sans-serif;
-    margin-left: 30px;
+    margin-left: 8rem;
     margin-top: 20px;
     margin-bottom: 100px;
 }
@@ -27,19 +28,18 @@
 } 
 
 .text .P2 {
-    font-size: 1.8rem;
-    width: 40rem;
+    font-size: 2.3rem;
     color:#fff;
-    margin-bottom: 80px;
+    margin-bottom: 55px;
+    width: 56rem;
 }
 .text h1 {
     color: #fff;
     font-weight: 600;
-    font-size: 120px;
+    font-size: 7.59rem;
     width: 350px;
     line-height: 120px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 3rem;
 }
 
 .signup  {
@@ -48,6 +48,30 @@
     position: absolute;
     top: 46px;
     right: 8em;    
+}
+
+/*learn more button*/
+.learnmore button {
+    width: 16rem;
+    height: 5.95rem;
+    background-color: #e05f23;
+    font-size: 1.61rem;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*Sign up button */
+.signup button {
+    width: 14rem;
+    height: 5.5rem;
+    font-size: 1.59rem;
+    border-radius: 8px;
+    background-color: #e05f23;
+    color: #fff;
+    cursor: pointer;
+    border: none;
 }
 
 

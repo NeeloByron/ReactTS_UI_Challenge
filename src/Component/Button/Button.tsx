@@ -1,14 +1,14 @@
 import type React from "react"
-import style from '@/Component/Button/Button.module.css'
 
 type buttonProp = {
      btnText: string,
      style?: React.CSSProperties,
+     onClick?: () => void,
 }
 
-export const Button: React.FC<buttonProp>= ({btnText, style}) => {
+export const Button: React.FC<buttonProp>= ({btnText, style, onClick}) => {
   return (
-    <button style={style}>
+    <button style={style} onClick={onClick}>
         {btnText}
     </button>
   )
