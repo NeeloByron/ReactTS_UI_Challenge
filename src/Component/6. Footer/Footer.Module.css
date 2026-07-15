@@ -75,7 +75,7 @@
 /*Opening Hours section*/
 
 .OperationHours {
-    border-left: 1px solid #fff;
+    border-left: 0.1rem solid #fff;
     height: 480px;
     margin-left: 50px;
     font-family: 'Nunito';

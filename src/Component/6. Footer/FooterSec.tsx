@@ -49,6 +49,14 @@ export const FooterSec = () => {
            {/*Opening hours*/}
            <div className='OperationHours'>
              <h1>OPENING HOURS</h1>
+              <div className='daysAndhours'>
+                <div className='dayRow'><span>Monday</span> 17.00 cm x17 <span></span></div>
+                 <div className='dayRow'><span>Tuesday</span> 13.60 cm x17 <span></span></div>
+                  <div className='dayRow'><span>Monday</span> 19.00 km x11 <span></span></div>
+                   <div className='dayRow'><span>Monday</span> 13.00 cm x11 <span></span></div>
+                   <hr className='operationHoursBottomDiver' />
+                   <h3 className='quicklink'>QUICK LINKS</h3>
+              </div>
            </div>
 
       </div>
