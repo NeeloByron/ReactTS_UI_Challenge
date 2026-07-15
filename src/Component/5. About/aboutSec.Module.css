@@ -38,16 +38,39 @@
     height: 100%;
     background-color: #fff;
     border-radius: 10px;
-    justify-content: center;
-    
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
 }
 
 .cardBox h1 {
    font-family: 'Nunito', 'ExtraLight';
-   font-size: 1.5rem;
+   font-size: 1.8rem;
    width: 15.8rem;
-   margin-top: 60px;
+   margin-top: 40px;
    margin-left: 40px;
 }
 
+.cardBox .Wotv {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 1.2rem;
+}
 
+.cardBox .diverOne{
+     border-bottom: rem solid black; 
+     width: 16.2rem;
+}
+
+.cardBox .Ruoedll {
+    color: black;
+    font-size: 1.3rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.3rem;
+}
+
+.cardBox .diverTwo {
+     border-bottom: rem solid black; 
+     width: 13rem;
+     margin-bottom: 1.8rem;
+}
