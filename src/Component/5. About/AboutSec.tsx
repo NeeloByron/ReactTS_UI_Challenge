@@ -21,12 +21,12 @@ export const AboutSec = () => {
 
               {/*the which background card*/}
              <div className='cardBox'>
-               <h1>EBEE WOUS BENEFIT.</h1>
+               <h2>EBEE WOUS BENEFIT.</h2>
                <p className='Wotv'>Wotv & verd. Pasafafadd aafafa</p>
                <hr className='diverOne'/>
                <p className='Ruoedll'>ruocedll condition</p>
                <hr className='diverTwo'/>
-               <Button btnText='HEAD MORE' style={{width: '12rem', height: '4rem', fontSize: '1.2rem', borderRadius: '8px', backgroundColor: '#d4632e'}}/>
+               <Button btnText='HEAD MORE' style={{width: '12rem', height: '4rem', fontSize: '1.2rem', borderRadius: '5px', backgroundColor: '#db6b37'}}/>
              </div>   
               
           </div> 
