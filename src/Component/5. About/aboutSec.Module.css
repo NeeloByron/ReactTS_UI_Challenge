@@ -1,8 +1,32 @@
 /*Main section*/
 .aboutMain {
+    display: flex;
+    flex-wrap: wrap;
     background-color: #1b222b;
     padding: 3.5rem;
     width: 100%;
     overflow: auto;
 }
 
+/* about card the first one with the <p> without a className*/
+/* 1 */
+.aboutCard p {
+    font-family: "Poppins", sans-serif;
+    font-size: 5.1em;
+    color: #fff;
+    width: 32vw;
+    line-height: 5.2rem
+}
+
+/* about card the second one with the strewberry image */
+/* 2 */
+.aboutCard img {
+    display: flex;
+    width: 23vw;
+    height: auto;
+    margin-right: 40px;
+    margin-left: 180px;
+    border-radius: 10px;
+}
+
+/* White background card the third */
