@@ -27,7 +27,7 @@ export const AboutSec = () => {
                <hr className='diverOne'/>
                <p className='Ruoedll'>ruocedll condition</p>
                <hr className='diverTwo'/>
-               <Button btnText='HEAD MORE' style={{width: '12rem', height: '4rem', fontSize: '1.2rem', borderRadius: '5px', backgroundColor: '#db6b37'}}/>
+               <Button btnText='HEAD MORE' onClick={() => alert('Head more to other things on our Restaurant')} />
              </div>   
               
           </div> 

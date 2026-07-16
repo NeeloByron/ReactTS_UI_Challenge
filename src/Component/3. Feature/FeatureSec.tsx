@@ -5,44 +5,39 @@ import './FeatureSec.Module.css'
 
 export const FeatureSec = () => {
   return (
-    <> 
+    <>
       {/*Main feacture section*/}
-       <div className='mainFeature'>
- 
-          {/*Sub main for the orange benefits part*/}
-           <div className='subMainFeature'>
+      <div className='mainFeature'>
 
-              {/*header*/}
-              <div className='SubHeader'>
-           
-                <div className='OrangeContainer'>
-                  <h1>Orange Benefit</h1>
-                </div>
-                  
-                  <div className='orangeAndText'>
-                      {/*Image for the half orange*/}
-                      <div className='orangeImage'>
-                        <img src={SliceOrange} />
-                      </div>
-                  
-                      {/*Paragraph message*/}
-                      <div className='MainText'>
-                        <p>Just reogine eseds and summer in golled quasiunp</p>
-                        <Button btnText='LEARN MORE' />
-                      </div>
+        {/*Sub main for the orange benefits part*/}
+         <div className='subMainFeature'>
 
-                  </div>
+          <div className='orangeAndText'>
+            <h1>Orange Benefit</h1>
 
+            {/*Paragraph message*/}
+            <div className='MainTextImgAndText'>
+              {/*Image for the half orange*/}
+              <img src={SliceOrange} />
+
+              <div className='MainText'>
+                <p>Just reogine eseds and summer in golled quasiunp</p>
+                <Button btnText='LEARN MORE' onClick={() => alert('Health food')} />
               </div>
+
+            </div>
 
           </div>
 
           {/*Image of orange juice*/}
-           <div className='FeatureSecOrangeGlass'>
-             <img src={OrangeContainer} alt='OrangeJuiceGlass' />
-           </div>
+          <div className='FeatureSecOrangeGlass'>
+            <img src={OrangeContainer} alt='OrangeJuiceGlass' />
+          </div>
 
-    </div>          
- </>
+        </div>
+
+      </div>
+
+    </>
   )
 }

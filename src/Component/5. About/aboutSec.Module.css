@@ -83,3 +83,14 @@
      margin-bottom: 2.6rem;
 }
 
+/*Head more button*/
+.cardBox button {
+    font-size: 1.2rem;
+    width: 12rem;
+    height: 4rem;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #e05f23;
+    border: none;
+}
+

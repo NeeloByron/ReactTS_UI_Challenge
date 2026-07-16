@@ -1,40 +1,44 @@
-/*Main container for the hero section*/
 .mainContainerBackground {
     display: flex;
-    min-height: 603px;
+    min-height: 820px;
     width: 100%;
     background: url(@/assets/BerryBowl.png) no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
-    padding: 1rem;
-}
-
-/*contains the whole text section including the button is a container*/
-.text {
-    display: inline-block;
-    font-family: "Poppins", sans-serif;
-    margin-left: 8rem;
-    margin-top: 20px;
-    margin-bottom: 100px;
-}
-
-.text .P1 {
     color: #fff;
+}
+
+/*Restrauarant name & singin button*/
+
+.PrelumAndSignIn {
+    display: flex;
+    justify-content: center;
+}
+
+.PrelumAndSignIn .P1 {
+    font-family: "Poppins", sans-serif;
     font-size: 1.8rem;
     font-weight: 320;
-    margin-top: 40px;
-    margin-bottom: 80px;
-} 
-
-.text .P2 {
-    font-size: 2.3rem;
-    color:#fff;
-    margin-bottom: 55px;
-    width: 56rem;
 }
-.text h1 {
+
+.PrelumAndSignIn button {
+    width: 14rem;
+    height: 5.5rem;
+    font-size: 1.59rem;
+    border-radius: 8px;
+    background-color: #e05f23;
     color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.PrelumAndSignIn button:hover {
+    color: #050505;
+}
+
+/*Text section*/
+.TextSection h1 {
     font-weight: 600;
     font-size: 7.59rem;
     width: 350px;
@@ -42,16 +46,17 @@
     margin-bottom: 3rem;
 }
 
-.signup  {
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 46px;
-    right: 8em;    
+.TextSection {
+    margin-top: 10rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.1rem;
+    width: 56rem;
 }
 
+
+
 /*learn more button*/
-.learnmore button {
+.TextSection button {
     width: 16rem;
     height: 5.95rem;
     background-color: #e05f23;
@@ -62,7 +67,7 @@
     cursor: pointer;
 }
 
-.learnmore button:hover {
+.TextSection button:hover {
     color: #050505;
 }
 

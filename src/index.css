@@ -44,65 +44,28 @@ body, html {
         background-image: cover;
         background-position: center center;
        }
-        
-       .learnmore {
-        width: 10px;
-        
-       }
-
-       .mainFeature {
-        display: block;
-       }
-
+       
        .FeatureSecOrangeGlass {
          display: block;
          height: 100px;
          width: 100px;
        }
 
-       .footerMain {
-        flex-wrap: wrap;
-        flex-direction: column;
-       }
-
-       .Main-Menu {
-        display: block;
-        flex-wrap: wrap;
-        flex-direction: column;
-       }
-
        /*Feature Section*/
-       .mainFeature {
-        padding: 2rem;
+       .subMainFeature {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
        }
-       .FeatureSecOrangeGlass {
-        max-width: 35%;
-        flex-grow: 0;
-        flex-shrink: 0;
-        flex-basis: 35%;
-        margin-left: auto;
-      }
 
        .FeatureSecOrangeGlass img {
-        width: 100%;
-        height: auto;
-        max-width: 20rem;
-        max-height: 18rem;
-        object-fit: cover;
-        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
        }
-
-       /* Menu section */
-       .Menu-card {
-         width: 100%;
-         height: auto;
-         object-fit: cover;
-       }
-
-       /*5 About section */
-       .aboutSection {
-         flex-wrap: wrap;
-       } 
+      
        
 }
 

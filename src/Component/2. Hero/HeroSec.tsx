@@ -5,26 +5,24 @@ export const HeroSec = () => {
   return (
     <>
       {/*Main section and background picture set*/}
-       <div className='mainContainerBackground'>
-       
-           {/*Restaurent name */}
-             <div className='text'>
-               <p className='P1'>Prelum Restraurant</p>
-               <h1>Anida Dedelay</h1>
-               <p className='P2'>BEST HEALTHY SALAD SERVED<br/> IN OUR RESTRAURANT</p>
-              
-               {/*Learn more button*/}
-                <div className='learnmore'>
-                 <Button btnText='LEARN MORE' onClick={() => alert('Prelum Restraurant serves healthy salads, Come dine at our restraurant enjoy nice healthy meals')} />
-                </div>
-             </div>
-           
-            {/*Sign up button*/}
-              <div className='signup'>
-                <Button btnText='SIGN IN' onClick={() => alert('Please enter your credentials')}/>
-              </div>
+      <div className='mainContainerBackground'>
 
-       </div>
+        {/*Restaurent name Sign up button*/}
+        <div className='PrelumAndSignIn'>
+          <p className='P1'>Prelum Restraurant</p>
+          <Button btnText='SIGN IN' onClick={() => alert('Please enter your credentials')} />
+        </div>
 
-   </> );
+        {/*Learn more button*/}
+        <div className='TextSection'>
+          <h1>Anida Dedelay</h1>
+          <p className='P2'>BEST HEALTHY SALAD SERVED<br /> IN OUR RESTRAURANT</p>
+          <Button btnText='LEARN MORE' onClick={() => alert('Prelum Restraurant serves healthy salads, Come dine at our restraurant enjoy nice healthy meals')} />
+        </div>
+
+      </div>
+
+    </>
+    
+  );
 };
