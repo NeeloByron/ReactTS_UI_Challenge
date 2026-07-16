@@ -94,3 +94,7 @@
     border: none;
 }
 
+.cardBox button:hover {
+    color: #050505;
+}
+
