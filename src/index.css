@@ -4,14 +4,13 @@
 
 body, html, #root {
     width: 100%;
-    
     padding: 0;
     margin: 0;
     overflow-x: hidden;  
     box-sizing: border-box;
 }
 
-/* Mobile */
+/* Mobile max 767px*/
 .container {
   display: grid;
   grid-template-columns: 1fr;
@@ -26,4 +25,44 @@ body, html, #root {
 /*showing menu toggle icon on mobile */
 .hamburger {
   display: block;
+}
+
+.mainContainerBackground, .mainFeature, .aboutSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Menu */
+.Main-Menu-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+/* Footer */
+.footerMain-content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  text-align: center
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+   .container {
+    padding: 30px;
+    row-gap: 50px;
+   }
+
+   .Main-Menu-grid {
+    grid-template-columns: repeat (2, 1fr);
+   }
+
+   .footerMain-content {
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+   }
 }

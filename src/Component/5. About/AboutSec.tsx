@@ -6,21 +6,19 @@ export const AboutSec = () => {
   return (
     <>
       {/*Main section*/}
-      <div className='aboutSection'>
-        <div className='aboutText'>
-          <p>Just imagine seeds and summer in gell sunshine.</p>
-        </div>
+      <div className='aboutMain'>
 
-        {/*contains the two cards*/}
-        <div className='containerCard'>
+         <div className='aboutCard'>
+           <p>Just imagine seeds and summer in gell sunshine.</p>
+         </div>
 
           {/*Image for the middle card holding strewberries*/}
-          <div className='aboutImageCard'>
-            <img src={strewBerryImg} alt="Strewberries" />
-          </div>
+           <div className='aboutCard'>
+             <img src={strewBerryImg} alt="Strewberries" />
+           </div>
 
           {/*the which background card*/}
-          <div className='cardBox'>
+          <div className='aboutCard'>
             <h2>EBEE WOUS </h2>
             <h1>BENEFIT.</h1>
             <p className='Wotv'>Wotv & verd. Pasafafadd aafafa</p>
@@ -29,8 +27,6 @@ export const AboutSec = () => {
             <hr className='diverTwo' />
             <Button btnText='HEAD MORE' onClick={() => alert('Head more to other things on our Restaurant')} />
           </div>
-
-        </div>
 
       </div>
     </>
