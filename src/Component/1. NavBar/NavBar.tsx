@@ -3,8 +3,16 @@ import logoImg from '@/assets/logo.png'
 import firstICon from '@/assets/location.png'
 import shopCart from '@/assets/cart-shopping.png'
 import './NavBar.Module.css'
+import { useState } from 'react';
+
 
 function NavBar () {
+
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => setIsOpen(!isOpen);
+  const hide = () => setIsOpen(false);
+  const show = () => setIsOpen(true);
+
   const navLinks = [
     { path: '/home', label: 'HOME' },
     { path: '/menu', label: 'MENU' },
@@ -24,6 +32,12 @@ function NavBar () {
 
         {/*nagivation bar map in list item*/}
          <nav className="navbar" role="navigation" aria-label="Main Navigation">
+          
+          {/* hamburger menu */}
+          <button className='menu-toggle' onClick={toggle}>
+            <span className={`menu ${isOpen ? 'cross' : 'hamburger'}`}></span>
+          </button>
+
            <ul className='nav-links'>
                {navLinks.map((link) => (
                  <li key={link.path}>

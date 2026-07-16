@@ -4,11 +4,26 @@
 
 body, html, #root {
     width: 100%;
-    height: auto;
+    
     padding: 0;
     margin: 0;
     overflow-x: hidden;  
     box-sizing: border-box;
 }
 
+/* Mobile */
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 40px;
+  padding: 15px;
+}
 
+.nav-links {
+  display: none;
+}
+
+/*showing menu toggle icon on mobile */
+.hamburger {
+  display: block;
+}
