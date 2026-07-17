@@ -17,7 +17,7 @@ export const AboutSec = () => {
              <img src={strewBerryImg} alt="Strewberries" />
            </div>
 
-          {/*the which background card*/}
+          {/*the one with white background color card*/}
           <div className='aboutCardBackground'>
             <h2 className='EBEE'>EBEE WOUS </h2>
             <h1>BENEFIT.</h1>
