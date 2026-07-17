@@ -9,7 +9,7 @@ export const AboutSec = () => {
       <div className='aboutMain'>
 
          <div className='aboutCard'>
-           <p>Just imagine seeds and summer in gell sunshine.</p>
+           <p className='JustImagine'>Just imagine seeds and summer in gell sunshine.</p>
          </div>
 
           {/*Image for the middle card holding strewberries*/}
@@ -18,8 +18,8 @@ export const AboutSec = () => {
            </div>
 
           {/*the which background card*/}
-          <div className='aboutCard'>
-            <h2>EBEE WOUS </h2>
+          <div className='aboutCardBackground'>
+            <h2 className='EBEE'>EBEE WOUS </h2>
             <h1>BENEFIT.</h1>
             <p className='Wotv'>Wotv & verd. Pasafafadd aafafa</p>
             <hr className='diverOne' />

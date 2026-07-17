@@ -6,27 +6,68 @@
     padding: 3.5rem;
     width: 100%;
     overflow: auto;
+    padding: 3.5rem;
+    gap: 3.5rem;
 }
 
 /* about card the first one with the <p> without a className*/
 /* 1 */
-.aboutCard p {
+.aboutCard .JustImagine {
     font-family: "Poppins", sans-serif;
     font-size: 5.1em;
     color: #fff;
     width: 32vw;
-    line-height: 5.2rem
+    line-height: 5.2rem;
 }
 
 /* about card the second one with the strewberry image */
 /* 2 */
 .aboutCard img {
-    display: flex;
-    width: 23vw;
-    height: auto;
-    margin-right: 40px;
-    margin-left: 180px;
+    display: block;
+    margin-bottom: 35px;
+    width: 100%;
+    height: 23rem;
     border-radius: 10px;
 }
 
-/* White background card the third */
+/* 3. third card the background white color */
+.aboutCardBackground {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20vw;
+    background-color: #fff;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+/* 4. the font and postioning of h2*/
+.aboutCardBackground .EBEE {
+   font-family: 'Nunito', 'ExtraLight';
+   font-size: 2rem;
+   width: 15.8rem;
+   margin-top: 40px;
+   margin-left: 1.9rem;
+}
+
+/* 5. the font and postioning of h1*/
+.aboutCardBackground h1 {
+    font-family: 'Nunito', 'ExtraLight';
+    font-size: 2.2rem;
+    margin-left: 3.1rem;
+}
+
+/* 6 the font and positiong for the <p> of Wotv class*/
+.aboutCardBackground .Wotv {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 1.2rem;
+    margin-bottom: 0.3rem;
+}
+
+/* 7 the font and postioning of a the first divider line */
+.aboutCardBackground .diverOne {
+     border-bottom: rem solid black; 
+     width: 16.2rem;
+}
