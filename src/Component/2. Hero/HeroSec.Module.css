@@ -14,9 +14,7 @@
 .PrelumAndSignIn {
     display: flex;
     justify-content: center;
-    padding-top: 2.5rem;
-
-    
+    padding-top: 2.5rem; 
 }
 
 .PrelumAndSignIn .P1 {
@@ -25,7 +23,6 @@
     font-weight: 320;
     position: absolute;
     left : 8.5rem;
-    
 }
 
 .PrelumAndSignIn button {
