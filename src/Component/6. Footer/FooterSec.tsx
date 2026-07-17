@@ -17,9 +17,10 @@ export const FooterSec = () => {
 
         {/*Our menu benefit section*/}
         <div className='footerCard'>
-          
+
             <h1>OUR MENU BENEFIT</h1>
 
+          <div className='subFooterCard'>
             <div className='fresh'>
               {/*icon 1*/}
               <img src={firstIcon} className='icon1' style={{ width: '120px', height: 'auto' }} />
@@ -40,19 +41,25 @@ export const FooterSec = () => {
               <h1>ORE ANIC</h1>
               <p>Towagoloes weruis</p>
             </div>
-
+           </div>
         </div>
 
         {/*Opening hours*/}
-        <div className='OperationHours'>
+        <div className='footerCard'>
           <h1>OPENING HOURS</h1>
           <div className='daysAndhours'>
-            <div className='dayRow'><span>Monday</span> 17.00 cm x17 <span></span></div>
-            <div className='dayRow'><span>Tuesday</span> 13.60 cm x17 <span></span></div>
-            <div className='dayRow'><span>Wednesday</span>19.00 km x11 <span></span></div>
-            <div className='dayRow'><span>Thursday</span> 13.00 cm x11 <span></span></div>
+            <span>Monday</span> 17.00 cm x17 <span></span>
+            <span>Tuesday</span> 13.60 cm x17 <span></span>
+            <span>Wednesday</span>19.00 km x11 <span></span>
+            <span>Thursday</span>13.00 cm x11 <span></span>
             <hr className='operationHoursBottomDiver' />
-            <h3 className='quicklink'>QUICK LINKS</h3>
+
+            <div className='iconLinks'>
+             <h3 className='quicklink'>QUICK LINKS</h3>
+             <i className="bi bi-facebook"></i>
+             <i className="bi bi-twitter-x"></i>
+             <i className="bi bi-instagram"></i>
+            </div>
           </div>
         </div>
 

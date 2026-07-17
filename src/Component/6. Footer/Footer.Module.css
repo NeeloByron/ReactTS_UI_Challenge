@@ -1,0 +1,17 @@
+/*1. Main footer section */
+.footerMain {
+    display: flex;
+    background-color: #10171f;
+    padding: 2.8rem;
+    color: #fff;
+}
+
+/*2. first image card that has the berries*/
+.footerCard img {
+    border-radius: 5px;
+}
+
+/*3. The fresh, vitamin and Ore container*/
+.subFooterCard {
+     display: flex;
+}
