@@ -41,12 +41,18 @@ body, html, #root {
   gap: 20px;
 }
 
+/* About */
+.aboutMain-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
 /* Footer */
 .footerMain-content {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-  text-align: center
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
 }
 
 /* Tablet */

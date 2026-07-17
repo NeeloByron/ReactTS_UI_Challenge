@@ -32,23 +32,19 @@
 
 /* 3. third card the background white color */
 .aboutCardBackground {
-    display: flex;
-    flex-wrap: wrap;
-    width: 20vw;
+    width: 100%;
+    height: 23rem;
     background-color: #fff;
     border-radius: 10px;
     align-items: center;
     text-align: center;
-    
 }
 
 /* 4. the font and postioning of h2*/
 .aboutCardBackground .EBEE {
    font-family: 'Nunito', 'ExtraLight';
    font-size: 2rem;
-   width: 15.8rem;
    margin-top: 40px;
-   margin-left: 1.9rem;
 }
 
 /* 5. the font and postioning of h1*/
@@ -70,4 +66,19 @@
 .aboutCardBackground .diverOne {
      border-bottom: rem solid black; 
      width: 16.2rem;
+}
+
+/* 8 the font and positioning of Ruoedll class*/
+.aboutCardBackground, .Ruoedll {
+    color: black;
+    font-size: 1.3rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.3rem;
+}
+
+/* 9 the font and positioning of divider two class*/
+.aboutCardBackground .diverTwo {
+     border-bottom:  black; 
+     width: 10rem;
+     margin-bottom: 2.6rem;
 }
