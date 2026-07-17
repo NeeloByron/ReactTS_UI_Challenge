@@ -10,6 +10,8 @@
 /*2. first image card that has the berries*/
 .footerCard img {
     border-radius: 5px;
+    max-width: 100%;
+    height: 23rem;
 }
 
 /*3. The fresh, vitamin and Ore container*/
@@ -23,12 +25,24 @@
 /*4. h1 font and sizes */
 .ourMenu  {
     font-family: 'Nunito', sans-serif;
-    font-size: 4.56rem;
+    font-size: 2.4rem;
     align-items: flex-start;
 }
 
 /*5. icons settings */
-.fresh .icon1, .vitamin .icon2, .OreAnic .icon3 {
+.fresh .icon1 , .vitamin .icon2, .OreAnic .icon3 {
     width: 60px;
-    height: auto;
+    height: 100%;
+}
+
+/*6. fresh container */
+.fresh, .vitamin, .OreAnic {
+    width: 100px;
+    height: px;
+}
+
+/* 7. h1 font size */
+.h1, h1 {
+    display:inline-flex;
+    font-size: 2rem;
 }

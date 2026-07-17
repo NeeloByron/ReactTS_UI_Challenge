@@ -31,7 +31,7 @@ export const FooterSec = () => {
             {/*icon 2*/}
             <div className='vitamin'>
               <img src={secondIcon} className='icon2' style={{ width: '120px', height: 'auto' }} />
-              <h1>VITAMIN</h1>
+              <h1 className='vit'>VITAMIN</h1>
               <p>Nispen noa proerns</p>
             </div>
 
