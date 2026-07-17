@@ -2,8 +2,9 @@
 .footerMain {
     display: flex;
     background-color: #10171f;
-    padding: 2.8rem;
     color: #fff;
+    padding: 3.5rem;
+    gap: 7.5rem;
 }
 
 /*2. first image card that has the berries*/
@@ -14,4 +15,20 @@
 /*3. The fresh, vitamin and Ore container*/
 .subFooterCard {
      display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 40px;
+}
+
+/*4. h1 font and sizes */
+.ourMenu  {
+    font-family: 'Nunito', sans-serif;
+    font-size: 4.56rem;
+    align-items: flex-start;
+}
+
+/*5. icons settings */
+.fresh .icon1, .vitamin .icon2, .OreAnic .icon3 {
+    width: 60px;
+    height: auto;
 }

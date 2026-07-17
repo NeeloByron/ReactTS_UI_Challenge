@@ -18,7 +18,7 @@ export const FooterSec = () => {
         {/*Our menu benefit section*/}
         <div className='footerCard'>
 
-            <h1>OUR MENU BENEFIT</h1>
+            <h1 className='ourMenu'>OUR MENU BENEFIT</h1>
 
           <div className='subFooterCard'>
             <div className='fresh'>
