@@ -10,18 +10,16 @@ export const FooterSec = () => {
       {/*Main Footer*/}
       <div className='footerMain'>
 
-        <div className='imageCard'>
+        <div className='footerCard'>
           <img src={footerImage} alt='backgroundDescription' />
           <div className='helloBox'>HELLO.</div>
         </div>
 
         {/*Our menu benefit section*/}
-        <div className='info'>
-          <div className='infoHeader'>
+        <div className='footerCard'>
+          
             <h1>OUR MENU BENEFIT</h1>
-          </div>
 
-          <div className='container'>
             <div className='fresh'>
               {/*icon 1*/}
               <img src={firstIcon} className='icon1' style={{ width: '120px', height: 'auto' }} />
@@ -42,7 +40,6 @@ export const FooterSec = () => {
               <h1>ORE ANIC</h1>
               <p>Towagoloes weruis</p>
             </div>
-          </div>
 
         </div>
 
