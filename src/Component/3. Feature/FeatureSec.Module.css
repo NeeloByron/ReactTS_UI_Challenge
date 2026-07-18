@@ -5,12 +5,74 @@
     background-color: #1b222b;
     color: #fff;
     justify-content: center;
-    padding: 3.5rem;
-    gap: 6.5rem;
+    padding: 1.5rem;
+    gap: 28.5rem;
 }
 
 .FeatureSecOrangeGlass img {
-    height: 50rem;
-    width: 73rem;
+    height: 43rem;
+    width: 66rem;
     border-radius: 5px;
+}
+
+/* Orange and text class for the card */
+.orangeAndText {
+    width: 68rem;
+}
+
+.orangeAndText .MainTextImgAndText img {
+    width: 31rem;
+    height: auto;
+}
+
+.FeatureSecOrangeGlass {
+    width: 66rem;
+}
+
+h1 {
+    font-size: 55px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    margin-top: 4.5rem;
+}
+
+.MainText p {
+    color:#f0f5fc;
+    font-size: 2.8rem;
+}
+
+/*Button*/
+.MainText button {
+    width: 12rem;
+    height: 4rem;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #e05f23;
+    border: none; /*or outline: none*/
+}
+
+.MainText button:hover {
+    color: #050505;
+}
+
+
+/*Button*/
+.MainText button {
+    width: 24rem;
+    height: 7rem;
+    color: #fff;
+    font-size: 2.1rem;
+    border-radius: 5px;
+    background-color: #e05f23;
+    border: none; /*or outline: none*/
+}
+
+.MainText button:hover {
+    color: #050505;
+}
+
+.MainTextImgAndText {
+    display: flex;
 }
