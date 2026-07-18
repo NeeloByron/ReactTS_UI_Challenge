@@ -9,9 +9,6 @@ export const FeatureSec = () => {
       {/*Main feacture section*/}
       <div className='mainFeature'>
 
-        {/*Sub main for the orange benefits part*/}
-         <div className='subMainFeature'>
-
           <div className='orangeAndText'>
             <h1>Orange Benefit</h1>
 
@@ -34,7 +31,6 @@ export const FeatureSec = () => {
             <img src={OrangeContainer} alt='OrangeJuiceGlass' />
           </div>
 
-        </div>
 
       </div>
 
