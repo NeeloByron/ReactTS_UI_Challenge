@@ -1,0 +1,16 @@
+/* 1. Main feature section*/
+.mainFeature {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1b222b;
+    color: #fff;
+    justify-content: center;
+    padding: 3.5rem;
+    gap: 6.5rem;
+}
+
+.FeatureSecOrangeGlass img {
+    height: 50rem;
+    width: 73rem;
+    border-radius: 5px;
+}
