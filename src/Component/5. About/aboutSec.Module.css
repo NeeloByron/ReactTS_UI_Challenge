@@ -15,14 +15,14 @@
     font-family: "Poppins", sans-serif;
     font-size: 4.5rem;
     color: #fff;
-    width: 26vw;
+    width: 22vw;
 }
 
 /* about card the second one with the strewberry image */
 /* 2 */
 .aboutCard img {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: 36rem;
     border-radius: 10px;
 }
@@ -30,8 +30,8 @@
 /* 3. third card the background white color */
 .aboutCardBackground {
    display: block;
-    width: 50rem;
-    height: 40rem;
+    width: 55rem;
+    height: 36rem;
     background-color: #fff;
     border-radius: 10px;
     align-items: center;
@@ -41,7 +41,7 @@
 /* 3.1 the about background white color card*/
 .aboutCard {
     display: block;
-    width: auto;
+    width: 55rem;
     height: auto;
    
 }

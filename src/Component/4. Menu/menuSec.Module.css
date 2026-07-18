@@ -9,15 +9,16 @@
     justify-content: center;
     align-items: center;
     padding: 3.5rem;
-    gap: 3.5rem;
+    gap: 6.5rem;
+    overflow: hidden;
 }
 
 /* Menu-card applies to all 3 cards image ,header & paragraph text */
 .Main-Menu .Menu-card img {
     display: block;
     margin-bottom: 35px;
-    width: 100%;
-    height: 35rem;
+    width: 96%;
+    height: 30rem;
     border-radius: 10px;
     
 }
@@ -37,6 +38,12 @@
     font-size: 1.9rem;
     align-items: center;
     display: flex;
+}
+
+/*Menu card*/
+.Menu-card {
+    width: 54rem;
+    height: 42rem;
 }
 
 
