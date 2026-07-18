@@ -23,15 +23,15 @@
 .aboutCard img {
     display: block;
     max-width: 100%;
-    height: 44rem;
+    height: 41rem;
     border-radius: 10px;
 }
 
 /* 3. third card the background white color */
 .aboutCardBackground {
    display: block;
-    width: 56rem;
-    height: 44rem;
+    width: 50rem;
+    height: 40rem;
     background-color: #fff;
     border-radius: 10px;
     align-items: center;
