@@ -14,6 +14,10 @@
     max-width: 100%;
     height: 23rem;
 }
+/*2.1 Footercard main*/
+.footerCard {
+    padding: 1.2rem;
+}
 
 /*3. The fresh, vitamin and Ore container*/
 .subFooterCard {
@@ -48,4 +52,8 @@
 
 .daysAndhours {
     margin-top: 12px;
+}
+
+.footerCard h1 {
+    font-size: 2.5rem;
 }

@@ -29,9 +29,9 @@
 
 /* 3. third card the background white color */
 .aboutCardBackground {
-    display: block;
-    width: 500px;
-    height: 23rem;
+   display: block;
+    width: auto;
+    height: auto;
     background-color: #fff;
     border-radius: 10px;
     align-items: center;
