@@ -5,6 +5,7 @@
     color: #fff;
     padding: 3.5rem;
     gap: 7.5rem;
+    justify-content: space-evenly;
 }
 
 /*2. first image card that has the berries*/
@@ -17,8 +18,6 @@
 /*3. The fresh, vitamin and Ore container*/
 .subFooterCard {
      display: flex;
-     justify-content: center;
-     align-items: center;
      gap: 40px;
 }
 
@@ -37,12 +36,16 @@
 
 /*6. fresh container */
 .fresh, .vitamin, .OreAnic {
-    width: 100px;
-    height: px;
+    width: 70px;
+    height: 26px;
 }
 
 /* 7. h1 font size */
-.h1, h1 {
+.fresh h1, .vitamin h1, .OreAnic h1 {
     display:inline-flex;
     font-size: 2rem;
+}
+
+.daysAndhours {
+    margin-top: 12px;
 }

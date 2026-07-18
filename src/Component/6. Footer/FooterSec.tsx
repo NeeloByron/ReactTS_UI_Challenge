@@ -31,7 +31,7 @@ export const FooterSec = () => {
             {/*icon 2*/}
             <div className='vitamin'>
               <img src={secondIcon} className='icon2' style={{ width: '120px', height: 'auto' }} />
-              <h1 className='vit'>VITAMIN</h1>
+              <h1>VITAMIN</h1>
               <p>Nispen noa proerns</p>
             </div>
 
@@ -48,10 +48,10 @@ export const FooterSec = () => {
         <div className='footerCard'>
           <h1>OPENING HOURS</h1>
           <div className='daysAndhours'>
-            <span>Monday</span> 17.00 cm x17 <span></span>
-            <span>Tuesday</span> 13.60 cm x17 <span></span>
-            <span>Wednesday</span>19.00 km x11 <span></span>
-            <span>Thursday</span>13.00 cm x11 <span></span>
+            <span>Tuesday <span> 8:00am</span><br /></span>
+            <span>Tuesday <span> 8:00am</span><br /></span>
+            <span>Wednesday <span> 8:00am</span><br /></span>
+            <span>Thursday <span> 8:00am</span><br /></span>
             <hr className='operationHoursBottomDiver' />
 
             <div className='iconLinks'>
