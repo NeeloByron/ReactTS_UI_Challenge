@@ -45,21 +45,21 @@
 
 /*Text section*/
 .TextSection h1 {
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    font-size: 7.59rem;
-    width: 350px;
-    line-height: 120px;
-    margin-bottom: 3rem;
+    font-size: 6.59rem;
+    width: 0px;
+    line-height: 74px;
+    margin-bottom: 6rem;
 }
 
 .TextSection {
     margin-top: 10rem;
     font-family: "Poppins", sans-serif;
     font-size: 2.1rem;
-    width: 56rem;
+    width: 17rem;
     position: absolute;
     left : 8.5rem;
-    
 }
 
 
@@ -95,6 +95,13 @@
 .signup button:hover {
     color: #050505;
 }
+
+.P2 {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+    width: 56rem;
+}
+
 
 
 

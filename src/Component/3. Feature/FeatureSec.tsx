@@ -10,7 +10,7 @@ export const FeatureSec = () => {
       <div className='mainFeature'>
 
           <div className='orangeAndText'>
-            <h1>Orange Benefit</h1>
+            <h1 className='Orange'>Orange Benefit</h1>
 
             {/*Paragraph message*/}
             <div className='MainTextImgAndText'>
