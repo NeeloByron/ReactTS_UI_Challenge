@@ -1,24 +1,23 @@
 /* main navigation container*/
 .nav-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 0.09rem;
     background-color: #191f24;  
 }
 
 /* Logo */
 .logo img {
-    height: 200px;
+    height: 106px;
+    width: 20rem;
     display: flex;
-    margin-left: 5rem;
 }
 
 /*Navbar container to allow the list and icons to be next to each other*/
 .navbar {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 78px;
 }
 
 /*Allows the list to be put vertifically and remove the links on the navigations*/

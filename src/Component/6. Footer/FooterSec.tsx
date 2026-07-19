@@ -54,12 +54,6 @@ export const FooterSec = () => {
             <span>Thursday <span> 8:00am</span><br /></span>
             <hr className='operationHoursBottomDiver' />
 
-            <div className='iconLinks'>
-             <h3 className='quicklink'>QUICK LINKS</h3>
-             <i className="bi bi-facebook"></i>
-             <i className="bi bi-twitter-x"></i>
-             <i className="bi bi-instagram"></i>
-            </div>
           </div>
         </div>
 

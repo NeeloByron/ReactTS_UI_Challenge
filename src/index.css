@@ -27,7 +27,13 @@ body, html, #root {
   display: block;
 }
 
-.mainContainerBackground, .aboutSection {
+.mainContainerBackground {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.aboutSection {
   display: flex;
   flex-direction: column;
   align-items: center;

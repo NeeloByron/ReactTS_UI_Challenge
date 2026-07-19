@@ -14,16 +14,17 @@
 .footerCard img {
     display: block;
     border-radius: 5px;
-    width: 100%;
-    height: 36rem;
+    width: 35rem;
+    height: 28rem;
 }
 /*2.1 Footercard main*/
 .footerCard {
     padding: 1.2rem;
     display: inline-block;
-    position: relative;
-    width: 55rem;
-    height: 38rem;
+    justify-content: center;
+    align-items: center;
+    width: 52rem;
+    height: 31rem;
     border-radius: 10px;
 }
 
@@ -71,3 +72,21 @@
     position: absolute;
 }
 
+.OreAnic img {
+    width: 112px;
+    height: 80px;
+}
+
+.OreAnic h1 {
+    font-size: 2rem;
+}
+
+.vitamin h1 {
+    font-size: 2rem;
+}
+
+.iconLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

@@ -6,23 +6,23 @@
     color: #fff;
     justify-content: center;
     padding: 1.5rem;
-    gap: 28.5rem;
+    gap: 40.5rem;
 }
 
 .FeatureSecOrangeGlass {
-    width: 66rem;
+    width: 56rem;
 }
 
 .FeatureSecOrangeGlass img {
-    height: 38rem;
-    width: 63rem;
+    height: 34rem;
+    width: 66rem;
     border-radius: 5px;
 }
 
 /* Orange and text class for the card */
 .orangeAndText {
-    width: 58rem;
-    height: 30rem;
+    width: 53rem;
+    height: 22rem;
 }
 
 .orangeAndText .MainTextImgAndText img {
