@@ -84,3 +84,44 @@ body, html, #root {
     text-align: left;
    }
 }
+
+/*Laptop min-width: 1024px*/
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    row-gap: 60px;
+  }
+
+  /*hide menu icon to show normal navigation*/
+  .hamburger {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 30px;
+  }
+
+  .mainFeature, .mainContainerBackground, .Main-Menu, .aboutMain, .footerMain {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .Main-Menu-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/*Desktop Screen*/
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1340px;
+    row-gap: 80px;
+  }
+
+  .Main-Menu-grid {
+    gap: 40px;
+  }
+}
