@@ -19,6 +19,63 @@
     align-items: center;
     position: absolute;
     top: 3rem;
-    left: 4rem;
-    right: 4rem;
+    left: 11rem;
+    right: 23rem;
+}
+
+/*Text and button container*/
+.TextSection {
+    position: absolute;
+    left: 10rem;
+    top: 18rem;
+}
+
+.P1 {
+   font-family: "Poppins", sans-serif;
+   font-size: 2.8rem; 
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 9.20rem;
+    width: 1rem;
+}
+
+.P2 {
+    font-size: 2.6rem;
+}
+
+/*learn more button*/
+.TextSection button {
+    width: 16rem;
+    height: 5.95rem;
+    background-color: #e05f23;
+    font-size: 1.61rem;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.TextSection button:hover {
+    color: #e05f23;
+    background-color: #fff;
+}
+
+/*Sign up button */
+.PrelumAndSignIn button {
+    width: 14rem;
+    height: 5.5rem;
+    font-size: 1.59rem;
+    border-radius: 8px;
+    background-color: #e05f23;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.PrelumAndSignIn button:hover {
+    color: #e05f23;
+    background-color: #fff;
 }
