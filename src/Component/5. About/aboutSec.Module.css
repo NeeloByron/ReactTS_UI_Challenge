@@ -101,7 +101,8 @@
 }
 
 .aboutCardBackground button:hover {
-    color: #050505;
+    color: #e05f23;
+    background-color: #fff;
 }
 
 /* 11. Hover over the 3 main cards */
@@ -109,7 +110,3 @@
     transform: translateY(20px);
 }
 
-/*11.1. Hover on the white background card*/
-.aboutCardBackground:hover {
-    transform: translateY(20px);
-}

@@ -77,7 +77,8 @@
 }
 
 .MainText button:hover {
-    color: #050505;
+    color: #e05f23;
+    background-color: #fff;
 }
 
 .MainTextImgAndText {
